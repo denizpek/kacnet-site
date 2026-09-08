@@ -19,7 +19,7 @@ footer { margin-top:48px; color:var(--soluk); font-size:13px; }
 </style></head>
 <body><main><div class="logo"><span class="b"></span><span class="b dolu"></span><span class="b"></span><span class="ust">KaçNet</span></div>
 <h1>KaçNet Gizlilik Politikası</h1>
-<em>Son güncelleme: 21 Ağustos 2026</em>
+<em>Son güncelleme: 8 Eylül 2026</em>
 <p>KaçNet, KPSS&#x27;ye hazırlanan adaylar için bir çalışma uygulamasıdır. Bu</p>
 <p>politika, uygulamanın verilerinle ne yaptığını — ve daha önemlisi ne</p>
 <p>yapmadığını — açıklar.</p>
@@ -36,9 +36,25 @@ footer { margin-top:48px; color:var(--soluk); font-size:13px; }
 <li>Uygulama ayarların (tema, hedef net, sınav tarihi vb.)</li>
 <li>İşaretlediğin soru bildirimleri</li>
 </ul>
-<p>Bu kipte internete hiçbir veri gönderilmez. Ad, telefon numarası, konum</p>
-<p>gibi bilgiler hiçbir kipte istenmez. Analitik, reklam ya da izleme</p>
-<p>SDK&#x27;sı yoktur.</p>
+<p>Ad, telefon numarası, konum gibi bilgiler hiçbir kipte istenmez. Reklam
+ya da üçüncü taraf izleme SDK&#x27;sı yoktur. Çalışma verilerin (cevapların,
+kartların, sonuçların) bu kipte cihazından çıkmaz; internete giden tek şey
+aşağıda anlatılan kimliksiz kullanım ölçümüdür ve onu da kapatabilirsin.</p>
+<h2>Anonim kullanım ölçümü (telemetri)</h2>
+<p>Uygulamayı geliştirmek için hangi özelliklerin ne kadar kullanıldığını
+anonim olarak ölçeriz (1.1.5 ve sonrası). Gönderilen şey yalnızca şudur:
+olay adı (ör. &quot;uygulama açıldı&quot;, &quot;deneme bitti&quot;), uygulamanın ilk açılışta
+ürettiği rastgele bir cihaz kodu, uygulama sürümü, platform ve hazırlandığın
+sınav türü.</p>
+<ul>
+<li>Ölçüm <b>kimliksizdir</b>: hesabınla, e-posta adresinle ya da IP&#x27;nle
+ilişkilendirilmez; hangi soruya ne cevap verdiğin gönderilmez.</li>
+<li><b>Kapatabilirsin:</b> &quot;Ayarlar &gt; Veri &gt; Kullanım verisi&quot; anahtarı
+ölçümü durdurur ve gönderilmeyi bekleyen kayıtları cihazdan siler.</li>
+<li>Üçüncü taraf analitik SDK&#x27;sı kullanılmaz; veri kendi altyapımızda
+(Supabase) saklanır, satılmaz, reklam için kullanılmaz ve kimseyle
+paylaşılmaz.</li>
+</ul>
 <h2>Hesap açarsan (isteğe bağlı)</h2>
 <p>Hesap, ilerlemenin buluta yedeklenmesi içindir. Bu durumda saklananlar:</p>
 <ul>
