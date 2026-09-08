@@ -1,0 +1,264 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>KaçNet Panel</title>
+<style>
+:root{
+  --kagit:#F8F1E5; --kart:#FFFDF8; --murekkep:#2A2620; --soluk:#6E6759;
+  --cizgi:#E4D9C3; --amber:#B07E1A; --mavi:#3D5A99; --lacivert:#26324B;
+  --yesil:#14664A; --mercan:#B04327;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--kagit);color:var(--murekkep);
+  font:15px/1.55 -apple-system,'Segoe UI',Roboto,sans-serif;padding:28px 18px 80px}
+main{max-width:980px;margin:0 auto}
+.logo{display:flex;gap:12px;align-items:center;margin-bottom:4px}
+.b{width:18px;height:18px;border:2.5px solid var(--murekkep);border-radius:50%}
+.b.dolu{background:var(--murekkep);width:21px;height:21px;border:none}
+.ust{font-weight:800;font-size:18px;letter-spacing:-.3px}
+h1{font-size:26px;letter-spacing:-.4px;margin:10px 0 2px}
+.alt{color:var(--soluk);font-size:13.5px;margin:0 0 20px}
+.alt b{color:var(--murekkep)}
+button{font:600 13px -apple-system,'Segoe UI',sans-serif;color:var(--murekkep);
+  background:var(--kart);border:1px solid var(--cizgi);border-radius:8px;
+  padding:7px 14px;cursor:pointer}
+button:hover{border-color:var(--amber)}
+.durum-cubugu{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 18px}
+.kartlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:0 0 22px}
+.tile{background:var(--kart);border:1px solid var(--cizgi);border-radius:12px;padding:14px 16px}
+.tile .etiket{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--soluk)}
+.tile .sayi{font-size:30px;font-weight:800;letter-spacing:-.5px;margin-top:2px;font-variant-numeric:tabular-nums}
+.tile .not{font-size:12px;color:var(--soluk)}
+.izgara{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:760px){.izgara{grid-template-columns:1fr}}
+.panel-kart{background:var(--kart);border:1px solid var(--cizgi);border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.panel-kart.genis{grid-column:1 / -1}
+.panel-kart h2{font-size:15px;margin:0 0 2px;letter-spacing:-.2px}
+.panel-kart .aciklama{font-size:12px;color:var(--soluk);margin:0 0 12px}
+.gosterge{display:flex;gap:14px;font-size:12px;color:var(--soluk);margin:0 0 8px}
+.gosterge span{display:inline-flex;align-items:center;gap:6px}
+.gosterge i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.cubuk-satir{display:grid;grid-template-columns:130px 1fr 52px;gap:10px;align-items:center;margin:7px 0;font-size:13px}
+.cubuk-satir .ad{color:var(--murekkep);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cubuk-ray{background:var(--kagit);border-radius:5px;height:16px;position:relative}
+.cubuk{height:16px;border-radius:0 4px 4px 0;background:var(--amber);min-width:2px;
+  transition:width .3s ease}
+.cubuk.m{background:var(--mavi)}
+.cubuk-satir .deger{text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.bos-not{color:var(--soluk);font-size:13px;padding:8px 0}
+svg text{font:11px -apple-system,'Segoe UI',sans-serif;fill:var(--soluk)}
+.ipucu{position:fixed;pointer-events:none;background:var(--murekkep);color:var(--kagit);
+  font-size:12px;padding:6px 9px;border-radius:7px;opacity:0;transition:opacity .12s;z-index:9;
+  white-space:nowrap}
+details{margin-top:8px}
+summary{cursor:pointer;font-size:13px;color:var(--soluk);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+th,td{text-align:left;padding:5px 8px;border-bottom:1px solid var(--cizgi)}
+td.s{text-align:right;font-variant-numeric:tabular-nums}
+.hata-kutu,.bilgi-kutu{background:var(--kart);border:1px solid var(--cizgi);border-left:3px solid var(--mercan);
+  border-radius:10px;padding:14px 16px;margin:14px 0;font-size:14px}
+.bilgi-kutu{border-left-color:var(--amber)}
+footer{margin-top:36px;color:var(--soluk);font-size:12.5px}
+footer a{color:var(--murekkep)}
+</style></head>
+<body><main>
+<div class="logo"><span class="b"></span><span class="b dolu"></span><span class="b"></span><span class="ust">KaçNet</span></div>
+<h1>Kullanım Paneli</h1>
+<p class="alt">Anonim telemetri özetleri · son 30 gün · kimlik yok, ham satır yok, yalnız toplamlar.
+<b id="son-guncelleme"></b></p>
+<div class="durum-cubugu">
+  <button id="yenile">Yenile</button>
+  <span class="alt" style="margin:0">5 dakikada bir kendiliğinden tazelenir.</span>
+</div>
+<div id="govde"></div>
+<div class="ipucu" id="ipucu"></div>
+<footer><a href="/">kacnet.app</a> · Panel yalnız bağlantı anahtarını bilenlere açılır;
+veri sözlüğü ve gizlilik ilkeleri için <a href="/gizlilik.html">gizlilik sayfası</a>.</footer>
+</main>
+<script>
+'use strict';
+const URL_KOK = 'https://kdyakjmbzrjakrrgmqlr.supabase.co/rest/v1/rpc/panel_ozet';
+// Anon anahtar bilinçli olarak açık (Supabase modeli; asıl koruma RLS +
+// panel_ozet fonksiyonunun kendi anahtarı). Panel anahtarı URL'nin #
+// kısmından okunur ve hiçbir sunucuya URL olarak gitmez.
+const ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkeWFram1ienJqYWtycmdtcWxyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcyOTk1OTcsImV4cCI6MjEwMjg3NTU5N30.Zsx30mL4Tg0YS_qJWo-5qSheykQGfLNQFjDo2pVB_jY';
+const govde = document.getElementById('govde');
+const ipucu = document.getElementById('ipucu');
+
+const OLAY_ADLARI = {
+  acilis:'Açılış', onboarding_bitti:'Onboarding bitti', quiz_basladi:'Quiz başladı',
+  quiz_bitti:'Quiz bitti', kart_oturumu:'Kart oturumu', deneme_basladi:'Deneme başladı',
+  deneme_bitti:'Deneme bitti', bugun_zinciri:'BUGÜN zinciri', paywall_goruldu:'Paywall görüldü',
+  satin_alma_basladi:'Satın alma başladı', satin_alma_hatasi:'Satın alma hatası',
+  abonelik_aktif:'Abonelik aktif', abonelik_iptali:'Abonelik iptali', sekme_goruldu:'Sekme görüldü'
+};
+const SEKME_ADLARI = {ana_sayfa:'Ana Sayfa', calis:'Çalış', deneme:'Deneme',
+  ilerleme:'İlerleme', profil:'Profil'};
+const SEVIYE_ADLARI = {lisans:'Lisans', onlisans:'Önlisans', lise:'Ortaöğretim',
+  secilmemis:'(seçilmemiş)'};
+
+function kacis(s){const d=document.createElement('span');d.textContent=String(s);return d.innerHTML}
+function gunEtiketi(g){const t=g.split('-');return t[2]+'.'+t[1]}
+
+function ipucuGoster(ev,metin){
+  ipucu.textContent=metin;ipucu.style.opacity=1;
+  ipucu.style.left=Math.min(ev.clientX+12,window.innerWidth-170)+'px';
+  ipucu.style.top=(ev.clientY-34)+'px';
+}
+function ipucuGizle(){ipucu.style.opacity=0}
+
+// Yatay çubuk listesi: kimliği renk değil ETİKET taşır; tek marka rengi.
+function cubuklar(satirlar,mavi){
+  if(!satirlar.length)return '<div class="bos-not">Bu pencerede kayıt yok.</div>';
+  const tepe=Math.max(...satirlar.map(s=>s.deger));
+  return satirlar.map(s=>
+    '<div class="cubuk-satir" data-ipucu="'+kacis(s.ad+': '+s.deger)+'">'+
+    '<span class="ad">'+kacis(s.ad)+'</span>'+
+    '<span class="cubuk-ray"><span class="cubuk'+(mavi?' m':'')+'" style="width:'+
+    (tepe?Math.max(2,100*s.deger/tepe):0)+'%"></span></span>'+
+    '<span class="deger">'+kacis(s.deger)+'</span></div>').join('');
+}
+
+// Günlük aktif cihaz çizgisi (tek seri; kesişim + ipucu katmanı).
+function cizgiGrafik(gunluk){
+  if(gunluk.length<2)return '<div class="bos-not">Çizgi için en az iki günlük veri gerekiyor.</div>';
+  const W=900,H=200,SOL=34,ALT=26,UST=12,SAG=46;
+  const gw=W-SOL-SAG,gh=H-UST-ALT;
+  const tepe=Math.max(1,...gunluk.map(g=>g.cihaz));
+  const x=i=>SOL+gw*i/(gunluk.length-1);
+  const y=v=>UST+gh*(1-v/tepe);
+  const nokta=gunluk.map((g,i)=>x(i).toFixed(1)+','+y(g.cihaz).toFixed(1)).join(' ');
+  const son=gunluk[gunluk.length-1];
+  let eksen='';
+  for(const oran of [0,0.5,1]){
+    const v=Math.round(tepe*oran),yy=y(v);
+    eksen+='<line x1="'+SOL+'" y1="'+yy+'" x2="'+(W-SAG)+'" y2="'+yy+'" stroke="#E4D9C3" stroke-width="1"/>'+
+           '<text x="'+(SOL-6)+'" y="'+(yy+4)+'" text-anchor="end">'+v+'</text>';
+  }
+  let gunler='';
+  const adim=Math.ceil(gunluk.length/8);
+  gunluk.forEach((g,i)=>{if(i%adim===0)gunler+='<text x="'+x(i)+'" y="'+(H-8)+'" text-anchor="middle">'+gunEtiketi(g.gun)+'</text>';});
+  const noktalar=gunluk.map((g,i)=>
+    '<circle cx="'+x(i)+'" cy="'+y(g.cihaz)+'" r="9" fill="transparent" data-ipucu="'+
+    kacis(gunEtiketi(g.gun)+' · '+g.cihaz+' cihaz · '+g.olay+' olay')+'"/>').join('');
+  return '<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto">'+eksen+gunler+
+    '<polyline points="'+nokta+'" fill="none" stroke="var(--amber)" stroke-width="2"/>'+
+    '<circle cx="'+x(gunluk.length-1)+'" cy="'+y(son.cihaz)+'" r="4" fill="var(--amber)"/>'+
+    '<text x="'+(x(gunluk.length-1)+8)+'" y="'+(y(son.cihaz)+4)+'" style="font-weight:700;fill:var(--murekkep)">'+son.cihaz+'</text>'+
+    noktalar+'</svg>';
+}
+
+function kartHtml(baslik,aciklama,ic,genis,gosterge){
+  return '<section class="panel-kart'+(genis?' genis':'')+'"><h2>'+baslik+'</h2>'+
+    '<p class="aciklama">'+aciklama+'</p>'+(gosterge||'')+ic+'</section>';
+}
+
+function ciz(v){
+  const bos=v.toplam_olay===0;
+  let h='';
+  h+='<div class="kartlar">'+
+    tile('Bugün aktif cihaz',v.bugun_cihaz,'bugün en az bir olay gönderen')+
+    tile('Son 7 gün',v.yedi_gun_cihaz,'aktif cihaz')+
+    tile('Toplam cihaz',v.toplam_cihaz,'tüm zamanlar')+
+    tile('Toplam olay',v.toplam_olay,'tüm zamanlar')+'</div>';
+  if(bos){
+    h+='<div class="bilgi-kutu"><b>Henüz veri yok.</b> Telemetri 1.1.5 sürümüyle '+
+       'yayılıyor; kullanıcılar güncelledikçe bu sayfa kendiliğinden dolacak. '+
+       'Sistem hazır: uçtan uca doğrulandı, tablo lansmana temiz başladı.</div>';
+  }
+  h+='<div class="izgara">';
+  h+=kartHtml('Günlük aktif cihaz','son 30 gün · günde en az bir olay gönderen cihaz',
+    cizgiGrafik(v.gunluk.map(g=>({gun:g.gun,cihaz:g.cihaz,olay:g.olay}))),true);
+  h+=kartHtml('Olay dağılımı','son 30 gün · adet',
+    cubuklar(v.olaylar.map(o=>({ad:OLAY_ADLARI[o.olay]||o.olay,deger:o.adet}))));
+  h+=kartHtml('Sekme kullanımı','son 30 gün · görülme (cihaz başına günde bir)',
+    cubuklar(v.sekmeler.map(s=>({ad:SEKME_ADLARI[s.sekme]||s.sekme,deger:s.adet}))));
+  const o=v.oturumlar;
+  h+=kartHtml('Oturumlar: başlayan ve biten','son 30 gün · tamamlama farkı kopuşu gösterir',
+    cubuklar([
+      {ad:'Quiz başladı',deger:o.quiz_basladi},{ad:'Quiz bitti',deger:o.quiz_bitti,m:1},
+      {ad:'Deneme başladı',deger:o.deneme_basladi},{ad:'Deneme bitti',deger:o.deneme_bitti,m:1},
+      {ad:'Kart oturumu',deger:o.kart_oturumu},{ad:'BUGÜN zinciri',deger:o.bugun_zinciri}
+    ].map(s=>({ad:s.ad,deger:s.deger,m:s.m}))),false,
+    '<div class="gosterge"><span><i style="background:var(--amber)"></i>başladı / oturum</span>'+
+    '<span><i style="background:var(--mavi)"></i>bitti</span></div>');
+  const f=v.huni;
+  h+=kartHtml('Premium hunisi','son 30 gün · olay adedi',
+    cubuklar([
+      {ad:'Paywall görüldü',deger:f.paywall},
+      {ad:'Satın alma başladı',deger:f.satin_alma},
+      {ad:'Abonelik aktif',deger:f.aktif}
+    ])+ (f.hata||f.iptal ?
+      '<p class="aciklama" style="margin-top:8px">Satın alma hatası: <b>'+f.hata+
+      '</b> · Abonelik iptali: <b>'+f.iptal+'</b></p>':''));
+  h+=kartHtml('Sınav türü','son 30 gün · aktif cihaz',
+    cubuklar(v.seviyeler.map(s=>({ad:SEVIYE_ADLARI[s.seviye]||s.seviye,deger:s.cihaz}))));
+  h+=kartHtml('Sürüm ve platform','son 30 gün · aktif cihaz',
+    cubuklar(v.surumler.map(s=>({ad:s.surum,deger:s.cihaz})))+
+    '<div style="height:8px"></div>'+
+    cubuklar(v.platformlar.map(p=>({ad:p.platform,deger:p.cihaz})),true));
+  h+='</div>';
+  h+='<details><summary>Bütün sayılar (tablo)</summary><table><tr><th>Bölüm</th><th>Anahtar</th><th style="text-align:right">Değer</th></tr>'+
+     tabloSatirlari(v)+'</table></details>';
+  govde.innerHTML=h;
+  // Mavi çubuk düzeltmesi (Oturumlar kartındaki "bitti" satırları).
+  document.querySelectorAll('.panel-kart').forEach(k=>{
+    if(k.querySelector('h2').textContent.startsWith('Oturumlar')){
+      const s=k.querySelectorAll('.cubuk');
+      [1,3].forEach(i=>{if(s[i])s[i].classList.add('m');});
+    }
+  });
+  document.querySelectorAll('[data-ipucu]').forEach(el=>{
+    el.addEventListener('mousemove',ev=>ipucuGoster(ev,el.dataset.ipucu));
+    el.addEventListener('mouseleave',ipucuGizle);
+  });
+}
+
+function tile(etiket,sayi,not){
+  return '<div class="tile"><div class="etiket">'+etiket+'</div>'+
+    '<div class="sayi">'+kacis(sayi)+'</div><div class="not">'+not+'</div></div>';
+}
+
+function tabloSatirlari(v){
+  const s=[];
+  const ekle=(b,a,d)=>s.push('<tr><td>'+kacis(b)+'</td><td>'+kacis(a)+'</td><td class="s">'+kacis(d)+'</td></tr>');
+  v.olaylar.forEach(o=>ekle('Olay',OLAY_ADLARI[o.olay]||o.olay,o.adet));
+  v.sekmeler.forEach(x=>ekle('Sekme',SEKME_ADLARI[x.sekme]||x.sekme,x.adet));
+  v.seviyeler.forEach(x=>ekle('Sınav türü',SEVIYE_ADLARI[x.seviye]||x.seviye,x.cihaz));
+  v.surumler.forEach(x=>ekle('Sürüm',x.surum,x.cihaz));
+  v.platformlar.forEach(x=>ekle('Platform',x.platform,x.cihaz));
+  Object.entries(v.huni).forEach(([a,d])=>ekle('Huni',a,d));
+  Object.entries(v.oturumlar).forEach(([a,d])=>ekle('Oturum',a,d));
+  return s.join('');
+}
+
+async function yukle(){
+  const anahtar=location.hash.replace('#','').trim();
+  if(!anahtar){
+    govde.innerHTML='<div class="hata-kutu"><b>Anahtar yok.</b> Bu panel yalnız '+
+      'bağlantı anahtarıyla açılır; sana verilen tam bağlantıyı kullan '+
+      '(adresin # işaretinden sonraki kısmı anahtardır).</div>';
+    return;
+  }
+  document.getElementById('son-guncelleme').textContent='· yükleniyor…';
+  try{
+    const c=await fetch(URL_KOK,{method:'POST',
+      headers:{apikey:ANON,Authorization:'Bearer '+ANON,'Content-Type':'application/json'},
+      body:JSON.stringify({anahtar})});
+    if(!c.ok)throw new Error(c.status);
+    const v=await c.json();
+    ciz(v);
+    document.getElementById('son-guncelleme').textContent=
+      '· son güncelleme '+new Date().toLocaleTimeString('tr-TR',{hour:'2-digit',minute:'2-digit'});
+  }catch(e){
+    govde.innerHTML='<div class="hata-kutu"><b>Veri alınamadı.</b> '+
+      (String(e.message)==='400'?'Anahtar geçersiz görünüyor — bağlantıyı kontrol et.':
+      'Bağlantı sorunu olabilir; birazdan tekrar dene.')+'</div>';
+    document.getElementById('son-guncelleme').textContent='';
+  }
+}
+document.getElementById('yenile').addEventListener('click',yukle);
+setInterval(yukle,5*60*1000);
+yukle();
+</script>
+</body></html>
