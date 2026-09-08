@@ -197,6 +197,32 @@ function ciz(v){
     cubuklar(v.surumler.map(s=>({ad:s.surum,deger:s.cihaz})))+
     '<div style="height:8px"></div>'+
     cubuklar(v.platformlar.map(p=>({ad:p.platform,deger:p.cihaz})),true));
+  const sos=v.sosyal;
+  if(sos){
+    const sonErisim=(sos.gunluk&&sos.gunluk.length)?sos.gunluk[sos.gunluk.length-1].erisim:null;
+    let ic='<div class="kartlar" style="margin-bottom:14px">'+
+      tile('Takipçi',sos.takipci==null?'?':sos.takipci,'@kacnet_kpss')+
+      tile('Günlük erişim',sonErisim==null?'?':sonErisim,'son ölçülen gün')+'</div>';
+    if(sos.gunluk&&sos.gunluk.length>=2){
+      ic+='<p class="aciklama">Günlük erişim (hesap geneli)</p>'+
+        cizgiGrafik(sos.gunluk.map(g=>({gun:g.gun,cihaz:g.erisim||0,olay:g.takipci||0})));
+    }
+    if(sos.medyalar&&sos.medyalar.length){
+      ic+='<p class="aciklama" style="margin-top:10px">Son gönderiler · erişilen tekil hesap (yanında beğeni)</p>'+
+        cubuklar(sos.medyalar.map(m=>({
+          ad:m.yayin+' '+(m.baslik||'').replace(/[#📲].*$/,'').slice(0,26),
+          deger:m.erisim||0})));
+      ic+='<details><summary>Gönderi ayrıntıları</summary><table>'+
+        '<tr><th>Gönderi</th><th style="text-align:right">Erişim</th><th style="text-align:right">Beğeni</th><th style="text-align:right">Yorum</th><th style="text-align:right">Kayıt</th><th style="text-align:right">Paylaşım</th></tr>'+
+        sos.medyalar.map(m=>'<tr><td><a href="'+kacis(m.permalink||'#')+'" target="_blank" rel="noopener">'+
+          kacis(m.yayin+' · '+(m.baslik||'').slice(0,40))+'</a></td>'+
+          '<td class="s">'+kacis(m.erisim==null?'?':m.erisim)+'</td><td class="s">'+kacis(m.begeni==null?'?':m.begeni)+
+          '</td><td class="s">'+kacis(m.yorum==null?'?':m.yorum)+'</td><td class="s">'+kacis(m.kaydetme==null?'?':m.kaydetme)+
+          '</td><td class="s">'+kacis(m.paylasim==null?'?':m.paylasim)+'</td></tr>').join('')+
+        '</table></details>';
+    }
+    h+=kartHtml('Instagram','sosyal hesap metrikleri · 6 saatte bir tazelenir',ic,true);
+  }
   h+='</div>';
   h+='<details><summary>Bütün sayılar (tablo)</summary><table><tr><th>Bölüm</th><th>Anahtar</th><th style="text-align:right">Değer</th></tr>'+
      tabloSatirlari(v)+'</table></details>';
