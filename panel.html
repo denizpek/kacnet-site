@@ -68,7 +68,7 @@ footer a{color:var(--murekkep)}
 <b id="son-guncelleme"></b></p>
 <div class="durum-cubugu">
   <button id="yenile">Yenile</button>
-  <span class="alt" style="margin:0">Yenile, Instagram’dan canlı veri çeker; sayfa dakikada bir kendiliğinden tazelenir.</span>
+  <span class="alt" style="margin:0">Sayfa yalnız Yenile'ye basınca tazelenir (Instagram + reklam verisi canlı çekilir).</span>
 </div>
 <div id="govde"></div>
 <div class="ipucu" id="ipucu"></div>
@@ -343,11 +343,8 @@ async function canliYenile(){
   dugme.disabled=false;
 }
 document.getElementById('yenile').addEventListener('click',canliYenile);
-// Dakikada bir sessiz tazeleme: yalnız veritabanından okur (Instagram'a
-// GİTMEZ); uygulama telemetrisi ve yayıncı akışı kendiliğinden görünsün diye.
-setInterval(()=>{if(document.visibilityState==='visible')yukle();},60*1000);
-document.addEventListener('visibilitychange',
-  ()=>{if(document.visibilityState==='visible')yukle();});
+// Otomatik tazeleme YOK (Deniz'in kararı, 9 Eylül): sayfa yalnız açılışta
+// bir kez çizilir, sonrası Yenile düğmesine bağlıdır.
 yukle();
 </script>
 </body></html>
