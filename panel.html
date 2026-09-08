@@ -223,6 +223,39 @@ function ciz(v){
     }
     h+=kartHtml('Instagram','sosyal hesap metrikleri · 6 saatte bir tazelenir',ic,true);
   }
+  const et=v.etki;
+  if(et){
+    const yayinMap={}; (et.yayin_gunleri||[]).forEach(y=>{yayinMap[y.gun]=y.adet});
+    let ic='<p class="aciklama">Günlük YENİ cihaz (uygulamayı ilk kez açan) · '+
+      'noktaların üstünde gün detayı, altta o gün atılan gönderi sayısı</p>';
+    if((et.yeni_cihazlar||[]).length>=2){
+      ic+=cizgiGrafik(et.yeni_cihazlar.map(n=>({gun:n.gun,cihaz:n.cihaz,
+        olay:(yayinMap[n.gun]||0)+' gönderi'})));
+    }else{
+      ic+='<div class="bos-not">Yeni cihaz serisi için en az iki günlük veri gerekiyor.</div>';
+    }
+    if((et.tiklamalar||[]).length){
+      ic+='<p class="aciklama" style="margin-top:10px">Bio bağlantısı tıklamaları (kacnet.app/ig)</p>'+
+        cubuklar(et.tiklamalar.slice(-10).map(t=>({ad:t.gun,deger:t.adet})),true);
+    }else{
+      ic+='<p class="aciklama" style="margin-top:10px">Bio bağlantısı tıklaması henüz yok '+
+        '(Instagram bio linki kacnet.app/ig yapılınca burada birikecek).</p>';
+    }
+    if((et.kampanyalar||[]).length){
+      ic+='<p class="aciklama" style="margin-top:10px">Kampanyalar</p><table>'+
+        '<tr><th>Kampanya</th><th>Dönem</th><th style="text-align:right">Harcama</th>'+
+        '<th style="text-align:right">Yeni cihaz</th><th style="text-align:right">CPI</th></tr>'+
+        et.kampanyalar.map(k=>'<tr><td>'+kacis(k.ad)+'</td><td>'+kacis(k.baslangic+' / '+k.bitis)+
+          '</td><td class="s">'+kacis(k.harcama)+' TL</td><td class="s">'+kacis(k.yeni_cihaz)+
+          '</td><td class="s">'+(k.cpi==null?'?':kacis(k.cpi)+' TL')+'</td></tr>').join('')+'</table>';
+    }else{
+      ic+='<p class="aciklama">CPI: kampanya kaydı yok. Reklam başlayınca dönem + harcama '+
+        'girilir; CPI = harcama / dönemdeki yeni cihaz olarak burada hesaplanır.</p>';
+    }
+    ic+='<p class="aciklama">Not: bu bölüm toplam etkiyi gösterir; kullanıcı '+
+      'düzeyinde reklam atfı bilinçli olarak yapılmaz (kimliksiz ölçüm ilkesi).</p>';
+    h+=kartHtml('Etki: Instagram → Uygulama','yayın günleri ile yeni cihaz edinimi yan yana',ic,true);
+  }
   h+='</div>';
   h+='<details><summary>Bütün sayılar (tablo)</summary><table><tr><th>Bölüm</th><th>Anahtar</th><th style="text-align:right">Değer</th></tr>'+
      tabloSatirlari(v)+'</table></details>';
