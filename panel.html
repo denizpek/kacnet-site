@@ -78,6 +78,8 @@ veri sözlüğü ve gizlilik ilkeleri için <a href="/gizlilik.html">gizlilik sa
 <script>
 'use strict';
 const URL_KOK = 'https://kdyakjmbzrjakrrgmqlr.supabase.co/rest/v1/rpc/panel_ozet';
+// Yenile düğmesi Instagram'dan canlı veri çektirir (aşağıda).
+const METRIK_URL = 'https://kdyakjmbzrjakrrgmqlr.supabase.co/functions/v1/sosyal-metrik';
 // Anon anahtar bilinçli olarak açık (Supabase modeli; asıl koruma RLS +
 // panel_ozet fonksiyonunun kendi anahtarı). Panel anahtarı URL'nin #
 // kısmından okunur ve hiçbir sunucuya URL olarak gitmez.
@@ -316,9 +318,24 @@ async function yukle(){
     document.getElementById('son-guncelleme').textContent='';
   }
 }
-document.getElementById('yenile').addEventListener('click',yukle);
-// Dakikada bir tazele (sekme görünürken); veri tarafı da hızlandı:
-// takipçi/beğeni/yorum 5 dakikada bir, insight'lar 6 saatte bir toplanır.
+// Yenile: önce Instagram'dan CANLI veri çektirir (takipçi + beğeni/yorum;
+// sürekli cron yerine yalnız istenince — Deniz'in kararı, 8 Eylül),
+// sonra paneli yeniden çizer. Çekim başarısızsa eldeki veriyle devam.
+async function canliYenile(){
+  const dugme=document.getElementById('yenile');
+  dugme.disabled=true;
+  document.getElementById('son-guncelleme').textContent='· canlı veri çekiliyor…';
+  try{
+    await fetch(METRIK_URL,{method:'POST',
+      headers:{apikey:ANON,Authorization:'Bearer '+ANON,'Content-Type':'application/json'},
+      body:JSON.stringify({hizli:true})});
+  }catch(e){}
+  await yukle();
+  dugme.disabled=false;
+}
+document.getElementById('yenile').addEventListener('click',canliYenile);
+// Dakikada bir sessiz tazeleme: yalnız veritabanından okur (Instagram'a
+// GİTMEZ); uygulama telemetrisi ve yayıncı akışı kendiliğinden görünsün diye.
 setInterval(()=>{if(document.visibilityState==='visible')yukle();},60*1000);
 document.addEventListener('visibilitychange',
   ()=>{if(document.visibilityState==='visible')yukle();});
