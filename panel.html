@@ -317,7 +317,11 @@ async function yukle(){
   }
 }
 document.getElementById('yenile').addEventListener('click',yukle);
-setInterval(yukle,5*60*1000);
+// Dakikada bir tazele (sekme görünürken); veri tarafı da hızlandı:
+// takipçi/beğeni/yorum 5 dakikada bir, insight'lar 6 saatte bir toplanır.
+setInterval(()=>{if(document.visibilityState==='visible')yukle();},60*1000);
+document.addEventListener('visibilitychange',
+  ()=>{if(document.visibilityState==='visible')yukle();});
 yukle();
 </script>
 </body></html>
