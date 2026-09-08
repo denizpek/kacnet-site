@@ -244,15 +244,21 @@ function ciz(v){
         '(Instagram bio linki kacnet.app/ig yapılınca burada birikecek).</p>';
     }
     if((et.kampanyalar||[]).length){
-      ic+='<p class="aciklama" style="margin-top:10px">Kampanyalar</p><table>'+
+      ic+='<p class="aciklama" style="margin-top:10px">Kampanyalar (Meta, günde bir otomatik)</p><table>'+
         '<tr><th>Kampanya</th><th>Dönem</th><th style="text-align:right">Harcama</th>'+
+        '<th style="text-align:right">Ücretli erişim</th><th style="text-align:right">Kişi maliyeti</th>'+
         '<th style="text-align:right">Yeni cihaz</th><th style="text-align:right">CPI</th></tr>'+
         et.kampanyalar.map(k=>'<tr><td>'+kacis(k.ad)+'</td><td>'+kacis(k.baslangic+' / '+k.bitis)+
-          '</td><td class="s">'+kacis(k.harcama)+' TL</td><td class="s">'+kacis(k.yeni_cihaz)+
-          '</td><td class="s">'+(k.cpi==null?'?':kacis(k.cpi)+' TL')+'</td></tr>').join('')+'</table>';
+          '</td><td class="s">'+kacis(k.harcama)+' TL</td><td class="s">'+
+          (k.erisim==null?'?':kacis(k.erisim))+'</td><td class="s">'+
+          (k.kisi_maliyet==null?'?':kacis((k.kisi_maliyet*100).toFixed(1))+' kr')+
+          '</td><td class="s">'+kacis(k.yeni_cihaz)+
+          '</td><td class="s">'+(k.cpi==null?'?':kacis(k.cpi)+' TL')+'</td></tr>').join('')+'</table>'+
+        '<p class="aciklama">Kişi maliyeti = harcama / ücretli erişim. Medya erişimi '+
+        'organik sayılır; boost erişimi burada ayrı izlenir.</p>';
     }else{
-      ic+='<p class="aciklama">CPI: kampanya kaydı yok. Reklam başlayınca dönem + harcama '+
-        'girilir; CPI = harcama / dönemdeki yeni cihaz olarak burada hesaplanır.</p>';
+      ic+='<p class="aciklama">Kampanya kaydı yok. Meta reklamı/boost başlayınca harcama ve '+
+        'ücretli erişim günde bir otomatik çekilir; CPI = harcama / dönemdeki yeni cihaz.</p>';
     }
     ic+='<p class="aciklama">Not: bu bölüm toplam etkiyi gösterir; kullanıcı '+
       'düzeyinde reklam atfı bilinçli olarak yapılmaz (kimliksiz ölçüm ilkesi).</p>';
