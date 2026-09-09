@@ -23,6 +23,10 @@ button{font:600 13px -apple-system,'Segoe UI',sans-serif;color:var(--murekkep);
   background:var(--kart);border:1px solid var(--cizgi);border-radius:8px;
   padding:7px 14px;cursor:pointer}
 button:hover{border-color:var(--amber)}
+.plat{display:inline-flex;gap:0;border:1px solid var(--cizgi);border-radius:8px;overflow:hidden}
+.plat button{border:none;border-radius:0;padding:7px 12px}
+.plat button+button{border-left:1px solid var(--cizgi)}
+.plat button.aktif{background:var(--murekkep);color:var(--kagit)}
 .durum-cubugu{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 18px}
 .kartlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:0 0 22px}
 .tile{background:var(--kart);border:1px solid var(--cizgi);border-radius:12px;padding:14px 16px}
@@ -68,6 +72,11 @@ footer a{color:var(--murekkep)}
 <b id="son-guncelleme"></b></p>
 <div class="durum-cubugu">
   <button id="yenile">Yenile</button>
+  <span class="plat" id="plat">
+    <button data-p="" class="aktif">Tümü</button>
+    <button data-p="android">Android</button>
+    <button data-p="ios">iOS</button>
+  </span>
   <span class="alt" style="margin:0">Sayfa yalnız Yenile'ye basınca tazelenir (Instagram + reklam verisi canlı çekilir).</span>
 </div>
 <div id="govde"></div>
@@ -86,6 +95,10 @@ const REKLAM_URL = 'https://kdyakjmbzrjakrrgmqlr.supabase.co/functions/v1/reklam
 // kısmından okunur ve hiçbir sunucuya URL olarak gitmez.
 const ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkeWFram1ienJqYWtycmdtcWxyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcyOTk1OTcsImV4cCI6MjEwMjg3NTU5N30.Zsx30mL4Tg0YS_qJWo-5qSheykQGfLNQFjDo2pVB_jY';
 const govde = document.getElementById('govde');
+// Platform kırılımı (9 Eylül): Tümü/Android/iOS. Uygulama verisi taşıyan
+// bölümler seçime göre filtrelenir; Instagram bölümü cihazdan bağımsız,
+// kampanya CPI'sı bilerek toplam cihazla hesaplı (harcama bölünemez).
+let platformSecimi=null;
 const ipucu = document.getElementById('ipucu');
 
 const OLAY_ADLARI = {
@@ -313,7 +326,8 @@ async function yukle(){
   try{
     const c=await fetch(URL_KOK,{method:'POST',
       headers:{apikey:ANON,Authorization:'Bearer '+ANON,'Content-Type':'application/json'},
-      body:JSON.stringify({anahtar})});
+      body:JSON.stringify(platformSecimi
+        ?{anahtar,platform_secimi:platformSecimi}:{anahtar})});
     if(!c.ok)throw new Error(c.status);
     const v=await c.json();
     ciz(v);
@@ -343,6 +357,11 @@ async function canliYenile(){
   dugme.disabled=false;
 }
 document.getElementById('yenile').addEventListener('click',canliYenile);
+document.querySelectorAll('#plat button').forEach(d=>d.addEventListener('click',()=>{
+  platformSecimi=d.dataset.p||null;
+  document.querySelectorAll('#plat button').forEach(x=>x.classList.toggle('aktif',x===d));
+  yukle();
+}));
 // Otomatik tazeleme YOK (Deniz'in kararı, 9 Eylül): sayfa yalnız açılışta
 // bir kez çizilir, sonrası Yenile düğmesine bağlıdır.
 yukle();
