@@ -128,6 +128,7 @@ const SEKME_ADLARI = {ana_sayfa:'Ana Sayfa', calis:'Çalış', deneme:'Deneme',
 const SEVIYE_ADLARI = {lisans:'Lisans', onlisans:'Önlisans', lise:'Ortaöğretim',
   secilmemis:'(seçilmemiş)'};
 
+function tl(x){return '₺'+Number(x||0).toLocaleString('tr-TR',{minimumFractionDigits:2,maximumFractionDigits:2})}
 function kacis(s){const d=document.createElement('span');d.textContent=String(s);return d.innerHTML}
 function gunEtiketi(g){const t=g.split('-');return t[2]+'.'+t[1]}
 
@@ -277,7 +278,7 @@ function ciz(v){
         '<tr><th>Kampanya</th><th>Dönem</th><th style="text-align:right">Harcama</th>'+
         '<th style="text-align:right">Ücretli erişim</th><th style="text-align:right">Kişi maliyeti</th>'+
         '<th style="text-align:right">Yeni cihaz</th><th style="text-align:right">CPI</th></tr>'+
-        et.kampanyalar.map(k=>'<tr><td>'+kacis(k.ad)+(k.durum?' <span class="alt" style="margin:0;font-size:11px">· '+kacis(k.durum==='ACTIVE'?'aktif':k.durum==='ARCHIVED'?'arşiv':k.durum.toLowerCase())+'</span>':'')+'</td><td>'+
+        et.kampanyalar.map(k=>'<tr><td>'+kacis(k.ad)+(k.durum?' <span class="alt" style="margin:0;font-size:11px">· '+kacis(k.durum==='ACTIVE'?'aktif':k.durum==='ARCHIVED'?'arşiv':k.durum.toLowerCase())+'</span>':'')+(k.dahil===false?' <span class="alt" style="margin:0;font-size:11px">· toplama dahil değil</span>':'')+'</td><td>'+
           kacis((k.baslangic||'?')+' / '+(k.bitis||'?'))+
           '</td><td class="s">'+kacis(k.harcama)+' TL</td><td class="s">'+
           (k.erisim==null?'?':kacis(k.erisim))+'</td><td class="s">'+
@@ -285,7 +286,12 @@ function ciz(v){
           '</td><td class="s">'+kacis(k.yeni_cihaz)+
           '</td><td class="s">'+(k.cpi==null?'?':kacis(k.cpi)+' TL')+'</td></tr>').join('')+'</table>'+
         '<p class="aciklama">Kişi maliyeti = harcama / ücretli erişim. Medya erişimi '+
-        'organik sayılır; boost erişimi burada ayrı izlenir.</p>';
+        'organik sayılır; boost erişimi burada ayrı izlenir.</p>'+
+        (et.reklam_toplam?'<div class="kartlar" style="margin:10px 0 4px">'+
+          '<div class="tile"><div class="etiket">Toplam harcama (KDV hariç)</div><div class="sayi">'+tl(et.reklam_toplam.harcama)+'</div><div class="not">toplama dahil satırlar'+(et.reklam_toplam.haric_satir?' · '+kacis(et.reklam_toplam.haric_satir)+' satır hariç':'')+'</div></div>'+
+          '<div class="tile"><div class="etiket">KDV %20</div><div class="sayi">'+tl(et.reklam_toplam.kdv)+'</div><div class="not">Meta faturasında ayrıca eklenir</div></div>'+
+          '<div class="tile"><div class="etiket">KDV dahil toplam</div><div class="sayi">'+tl(et.reklam_toplam.kdvli)+'</div><div class="not">gerçek kasa çıkışı</div></div>'+
+        '</div>':'');
     }else{
       ic+='<p class="aciklama">Kampanya kaydı yok. Meta reklamı/boost başlayınca harcama ve '+
         'ücretli erişim günde bir otomatik çekilir; CPI = harcama / dönemdeki yeni cihaz.</p>';
