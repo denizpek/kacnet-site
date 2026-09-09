@@ -273,11 +273,11 @@ function ciz(v){
         '(Instagram bio linki kacnet.app/ig yapılınca burada birikecek).</p>';
     }
     if((et.kampanyalar||[]).length){
-      ic+='<p class="aciklama" style="margin-top:10px">Kampanyalar (Meta, günde bir otomatik)</p><table>'+
+      ic+='<p class="aciklama" style="margin-top:10px">Reklamlar (Meta, reklam düzeyinde; Yenile ile canlı)</p><table>'+
         '<tr><th>Kampanya</th><th>Dönem</th><th style="text-align:right">Harcama</th>'+
         '<th style="text-align:right">Ücretli erişim</th><th style="text-align:right">Kişi maliyeti</th>'+
         '<th style="text-align:right">Yeni cihaz</th><th style="text-align:right">CPI</th></tr>'+
-        et.kampanyalar.map(k=>'<tr><td>'+kacis(k.ad)+'</td><td>'+
+        et.kampanyalar.map(k=>'<tr><td>'+kacis(k.ad)+(k.durum?' <span class="alt" style="margin:0;font-size:11px">· '+kacis(k.durum==='ACTIVE'?'aktif':k.durum==='ARCHIVED'?'arşiv':k.durum.toLowerCase())+'</span>':'')+'</td><td>'+
           kacis((k.baslangic||'?')+' / '+(k.bitis||'?'))+
           '</td><td class="s">'+kacis(k.harcama)+' TL</td><td class="s">'+
           (k.erisim==null?'?':kacis(k.erisim))+'</td><td class="s">'+
