@@ -78,6 +78,7 @@ footer a{color:var(--murekkep)}
     <button data-p="ios">iOS</button>
   </span>
   <span class="plat" id="pencere">
+    <button data-s="1">1 saat</button>
     <button data-s="8">8 saat</button>
     <button data-s="24">24 saat</button>
     <button data-s="168">7 gün</button>
@@ -109,7 +110,8 @@ let platformSecimi=null;
 // üstteki dört sabit kart pencereden bağımsız; etiketleri kendi içinde).
 let pencereSaat=720;
 function pencereEtiketi(){
-  return pencereSaat===8?'son 8 saat':pencereSaat===24?'son 24 saat':
+  return pencereSaat===1?'son 1 saat':pencereSaat===8?'son 8 saat':
+         pencereSaat===24?'son 24 saat':
          pencereSaat===168?'son 7 gün':'son 30 gün';
 }
 const ipucu = document.getElementById('ipucu');
