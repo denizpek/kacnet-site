@@ -68,7 +68,7 @@ footer a{color:var(--murekkep)}
 <body><main>
 <div class="logo"><span class="b"></span><span class="b dolu"></span><span class="b"></span><span class="ust">KaçNet</span></div>
 <h1>Kullanım Paneli</h1>
-<p class="alt">Anonim telemetri özetleri · son 30 gün · kimlik yok, ham satır yok, yalnız toplamlar.
+<p class="alt">Anonim telemetri özetleri · kimlik yok, ham satır yok, yalnız toplamlar.
 <b id="son-guncelleme"></b></p>
 <div class="durum-cubugu">
   <button id="yenile">Yenile</button>
@@ -76,6 +76,12 @@ footer a{color:var(--murekkep)}
     <button data-p="" class="aktif">Tümü</button>
     <button data-p="android">Android</button>
     <button data-p="ios">iOS</button>
+  </span>
+  <span class="plat" id="pencere">
+    <button data-s="8">8 saat</button>
+    <button data-s="24">24 saat</button>
+    <button data-s="168">7 gün</button>
+    <button data-s="720" class="aktif">30 gün</button>
   </span>
   <span class="alt" style="margin:0">Sayfa yalnız Yenile'ye basınca tazelenir (Instagram + reklam verisi canlı çekilir).</span>
 </div>
@@ -99,6 +105,13 @@ const govde = document.getElementById('govde');
 // bölümler seçime göre filtrelenir; Instagram bölümü cihazdan bağımsız,
 // kampanya CPI'sı bilerek toplam cihazla hesaplı (harcama bölünemez).
 let platformSecimi=null;
+// Zaman penceresi yalnız uygulama verisi bölümlerine işler (Instagram ve
+// üstteki dört sabit kart pencereden bağımsız; etiketleri kendi içinde).
+let pencereSaat=720;
+function pencereEtiketi(){
+  return pencereSaat===8?'son 8 saat':pencereSaat===24?'son 24 saat':
+         pencereSaat===168?'son 7 gün':'son 30 gün';
+}
 const ipucu = document.getElementById('ipucu');
 
 const OLAY_ADLARI = {
@@ -183,14 +196,14 @@ function ciz(v){
        'Sistem hazır: uçtan uca doğrulandı, tablo lansmana temiz başladı.</div>';
   }
   h+='<div class="izgara">';
-  h+=kartHtml('Günlük aktif cihaz','son 30 gün · günde en az bir olay gönderen cihaz',
+  h+=kartHtml('Günlük aktif cihaz',pencereEtiketi()+' · günde en az bir olay gönderen cihaz',
     cizgiGrafik(v.gunluk.map(g=>({gun:g.gun,cihaz:g.cihaz,olay:g.olay}))),true);
-  h+=kartHtml('Olay dağılımı','son 30 gün · adet',
+  h+=kartHtml('Olay dağılımı',pencereEtiketi()+' · adet',
     cubuklar(v.olaylar.map(o=>({ad:OLAY_ADLARI[o.olay]||o.olay,deger:o.adet}))));
-  h+=kartHtml('Sekme kullanımı','son 30 gün · görülme (cihaz başına günde bir)',
+  h+=kartHtml('Sekme kullanımı',pencereEtiketi()+' · görülme (cihaz başına günde bir)',
     cubuklar(v.sekmeler.map(s=>({ad:SEKME_ADLARI[s.sekme]||s.sekme,deger:s.adet}))));
   const o=v.oturumlar;
-  h+=kartHtml('Oturumlar: başlayan ve biten','son 30 gün · tamamlama farkı kopuşu gösterir',
+  h+=kartHtml('Oturumlar: başlayan ve biten',pencereEtiketi()+' · tamamlama farkı kopuşu gösterir',
     cubuklar([
       {ad:'Quiz başladı',deger:o.quiz_basladi},{ad:'Quiz bitti',deger:o.quiz_bitti,m:1},
       {ad:'Deneme başladı',deger:o.deneme_basladi},{ad:'Deneme bitti',deger:o.deneme_bitti,m:1},
@@ -199,7 +212,7 @@ function ciz(v){
     '<div class="gosterge"><span><i style="background:var(--amber)"></i>başladı / oturum</span>'+
     '<span><i style="background:var(--mavi)"></i>bitti</span></div>');
   const f=v.huni;
-  h+=kartHtml('Premium hunisi','son 30 gün · olay adedi',
+  h+=kartHtml('Premium hunisi',pencereEtiketi()+' · olay adedi',
     cubuklar([
       {ad:'Paywall görüldü',deger:f.paywall},
       {ad:'Satın alma başladı',deger:f.satin_alma},
@@ -207,9 +220,9 @@ function ciz(v){
     ])+ (f.hata||f.iptal ?
       '<p class="aciklama" style="margin-top:8px">Satın alma hatası: <b>'+f.hata+
       '</b> · Abonelik iptali: <b>'+f.iptal+'</b></p>':''));
-  h+=kartHtml('Sınav türü','son 30 gün · aktif cihaz',
+  h+=kartHtml('Sınav türü',pencereEtiketi()+' · aktif cihaz',
     cubuklar(v.seviyeler.map(s=>({ad:SEVIYE_ADLARI[s.seviye]||s.seviye,deger:s.cihaz}))));
-  h+=kartHtml('Sürüm ve platform','son 30 gün · aktif cihaz',
+  h+=kartHtml('Sürüm ve platform',pencereEtiketi()+' · aktif cihaz',
     cubuklar(v.surumler.map(s=>({ad:s.surum,deger:s.cihaz})))+
     '<div style="height:8px"></div>'+
     cubuklar(v.platformlar.map(p=>({ad:p.platform,deger:p.cihaz})),true));
@@ -326,8 +339,8 @@ async function yukle(){
   try{
     const c=await fetch(URL_KOK,{method:'POST',
       headers:{apikey:ANON,Authorization:'Bearer '+ANON,'Content-Type':'application/json'},
-      body:JSON.stringify(platformSecimi
-        ?{anahtar,platform_secimi:platformSecimi}:{anahtar})});
+      body:JSON.stringify(Object.assign({anahtar,pencere_saat:pencereSaat},
+        platformSecimi?{platform_secimi:platformSecimi}:{}))});
     if(!c.ok)throw new Error(c.status);
     const v=await c.json();
     ciz(v);
@@ -357,6 +370,11 @@ async function canliYenile(){
   dugme.disabled=false;
 }
 document.getElementById('yenile').addEventListener('click',canliYenile);
+document.querySelectorAll('#pencere button').forEach(d=>d.addEventListener('click',()=>{
+  pencereSaat=Number(d.dataset.s);
+  document.querySelectorAll('#pencere button').forEach(x=>x.classList.toggle('aktif',x===d));
+  yukle();
+}));
 document.querySelectorAll('#plat button').forEach(d=>d.addEventListener('click',()=>{
   platformSecimi=d.dataset.p||null;
   document.querySelectorAll('#plat button').forEach(x=>x.classList.toggle('aktif',x===d));
