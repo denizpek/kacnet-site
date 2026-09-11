@@ -300,6 +300,15 @@ export function CinematicFooter() {
                 <MagneticButton as="a" href="/gizlilik.html" className="footer-glass-pill px-6 py-3 rounded-full text-muted-foreground font-medium text-xs md:text-sm hover:text-foreground">
                   Gizlilik Politikası
                 </MagneticButton>
+                <MagneticButton as="a" href="/sozlesme.html" className="footer-glass-pill px-6 py-3 rounded-full text-muted-foreground font-medium text-xs md:text-sm hover:text-foreground">
+                  Mesafeli Satış Sözleşmesi
+                </MagneticButton>
+                <MagneticButton as="a" href="/iade.html" className="footer-glass-pill px-6 py-3 rounded-full text-muted-foreground font-medium text-xs md:text-sm hover:text-foreground">
+                  İptal ve İade
+                </MagneticButton>
+                <MagneticButton as="a" href="/iletisim.html" className="footer-glass-pill px-6 py-3 rounded-full text-muted-foreground font-medium text-xs md:text-sm hover:text-foreground">
+                  İletişim
+                </MagneticButton>
                 <MagneticButton as="a" href="mailto:destek@kacnet.app" className="footer-glass-pill px-6 py-3 rounded-full text-muted-foreground font-medium text-xs md:text-sm hover:text-foreground">
                   destek@kacnet.app
                 </MagneticButton>
