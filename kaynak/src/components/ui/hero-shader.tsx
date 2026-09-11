@@ -117,6 +117,15 @@ export function CinematicHero() {
           </MagneticButton>
 
           <MagneticButton
+            as="a"
+            href="/uygulama/"
+            className="hero-pill-ghost px-8 py-5 rounded-full font-display font-bold text-sm md:text-base flex items-center gap-3"
+          >
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" /></svg>
+            Web'de kullan · beta
+          </MagneticButton>
+
+          <MagneticButton
             as="span"
             className="hero-pill-ghost px-8 py-5 rounded-full font-display font-bold text-sm md:text-base flex items-center gap-3 cursor-default"
           >

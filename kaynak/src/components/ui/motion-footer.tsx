@@ -277,6 +277,15 @@ export function CinematicFooter() {
                 </MagneticButton>
 
                 <MagneticButton
+                  as="a"
+                  href="/uygulama/"
+                  className="footer-glass-pill px-10 py-5 rounded-full text-foreground font-bold text-sm md:text-base flex items-center gap-3 group"
+                >
+                  <svg className="w-6 h-6 text-muted-foreground group-hover:text-foreground transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" /></svg>
+                  Web'de kullan · beta
+                </MagneticButton>
+
+                <MagneticButton
                   as="span"
                   className="footer-glass-pill px-10 py-5 rounded-full text-muted-foreground font-bold text-sm md:text-base flex items-center gap-3 cursor-default"
                 >
