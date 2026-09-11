@@ -1,0 +1,1233 @@
+{
+ "kod": "kpss-onlisans-2026",
+ "ad": "KPSS Önlisans Genel Yetenek – Genel Kültür",
+ "yil": 2026,
+ "seviye": "onlisans",
+ "toplam_soru": 120,
+ "sure_dakika": 130,
+ "kaynak_notu": "Konu ağacı ÖSYM önlisans çıkmış kitapçıklarının soru soru sayımından (2014/2016/2020; 2018 kitapçığı eksik yayımlı) ve resmî konu listelerinden; ağırlıklar son üç sınavın (2020 sayım + 2022/2024 dağılım tabloları) konu payı ortalamasından, ders toplamına normalize edilerek türetilmiştir. Geometri ve Güncel Bilgiler dağılımı yalnız kendi sayımlarımızdan gelir (tablolarda yoklar). Üretici: content/curriculum/onlisans_agac.py",
+ "bolumler": [
+  {
+   "kod": "ol-genel-yetenek",
+   "ad": "Genel Yetenek",
+   "soru_sayisi": 60,
+   "sira": 1,
+   "dersler": [
+    {
+     "kod": "ol-turkce",
+     "ad": "Türkçe",
+     "soru_sayisi": 30,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "sozcukte-anlam",
+       "ad": "Sözcükte Anlam",
+       "sira": 1,
+       "agirlik": 2.67,
+       "alt_konular": [
+        {
+         "kod": "ol-gercek-mecaz-ve-terim-anlam",
+         "ad": "Gerçek, Mecaz ve Terim Anlam",
+         "sira": 1
+        },
+        {
+         "kod": "ol-es-zit-ve-es-sesli-sozcukler",
+         "ad": "Eş, Zıt ve Eş Sesli Sözcükler",
+         "sira": 2
+        },
+        {
+         "kod": "ol-deyimler-ve-atasozleri",
+         "ad": "Deyimler ve Atasözleri",
+         "sira": 3
+        },
+        {
+         "kod": "ol-sozcukler-arasi-anlam-iliskileri",
+         "ad": "Sözcükler Arası Anlam İlişkileri",
+         "sira": 4
+        }
+       ]
+      },
+      {
+       "kod": "cumlede-anlam",
+       "ad": "Cümlede Anlam",
+       "sira": 2,
+       "agirlik": 1.67,
+       "alt_konular": [
+        {
+         "kod": "ol-cumlede-anlam-iliskileri",
+         "ad": "Cümlede Anlam İlişkileri",
+         "sira": 1
+        },
+        {
+         "kod": "ol-cumle-yorumlama",
+         "ad": "Cümle Yorumlama",
+         "sira": 2
+        },
+        {
+         "kod": "ol-ortuk-anlam-ve-kesin-yargi",
+         "ad": "Örtük Anlam ve Kesin Yargı",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "paragrafta-anlam",
+       "ad": "Paragrafta Anlam",
+       "sira": 3,
+       "agirlik": 15.33,
+       "alt_konular": [
+        {
+         "kod": "ol-ana-dusunce",
+         "ad": "Ana Düşünce",
+         "sira": 1
+        },
+        {
+         "kod": "ol-yardimci-dusunce",
+         "ad": "Yardımcı Düşünce",
+         "sira": 2
+        },
+        {
+         "kod": "ol-paragrafin-yapisi",
+         "ad": "Paragrafın Yapısı",
+         "sira": 3
+        },
+        {
+         "kod": "ol-konu-ve-baslik",
+         "ad": "Konu ve Başlık",
+         "sira": 4
+        },
+        {
+         "kod": "ol-anlatim-bicimleri-ve-dusunceyi-gelistirme-yollari",
+         "ad": "Anlatım Biçimleri ve Düşünceyi Geliştirme Yolları",
+         "sira": 5
+        },
+        {
+         "kod": "ol-paragraf-cozum-stratejisi",
+         "ad": "Paragraf Çözüm Stratejisi",
+         "sira": 6
+        }
+       ]
+      },
+      {
+       "kod": "ses-bilgisi",
+       "ad": "Ses Bilgisi",
+       "sira": 4,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-unlu-uyumlari-ve-unlu-ses-olaylari",
+         "ad": "Ünlü Uyumları ve Ünlü Ses Olayları",
+         "sira": 1
+        },
+        {
+         "kod": "ol-unsuz-ses-olaylari",
+         "ad": "Ünsüz Ses Olayları",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "yapi-bilgisi",
+       "ad": "Yapı Bilgisi",
+       "sira": 5,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-kok-govde-ve-ekler",
+         "ad": "Kök, Gövde ve Ekler",
+         "sira": 1
+        },
+        {
+         "kod": "ol-basit-turemis-ve-birlesik-sozcukler",
+         "ad": "Basit, Türemiş ve Birleşik Sözcükler",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "sozcuk-turleri",
+       "ad": "Sözcük Türleri",
+       "sira": 6,
+       "agirlik": 0.67,
+       "alt_konular": [
+        {
+         "kod": "ol-isim-sifat-zamir-ve-zarf",
+         "ad": "İsim, Sıfat, Zamir ve Zarf",
+         "sira": 1
+        },
+        {
+         "kod": "ol-edat-baglac-ve-unlem",
+         "ad": "Edat, Bağlaç ve Ünlem",
+         "sira": 2
+        },
+        {
+         "kod": "ol-fiiller-ve-fiilimsiler",
+         "ad": "Fiiller ve Fiilimsiler",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "cumle-bilgisi",
+       "ad": "Cümle Bilgisi",
+       "sira": 7,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-cumlenin-ogeleri",
+         "ad": "Cümlenin Ögeleri",
+         "sira": 1
+        },
+        {
+         "kod": "ol-cumle-turleri",
+         "ad": "Cümle Türleri",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "yazim-kurallari",
+       "ad": "Yazım Kuralları",
+       "sira": 8,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-buyuk-harflerin-ve-birlesik-sozcuklerin-yazimi",
+         "ad": "Büyük Harflerin ve Birleşik Sözcüklerin Yazımı",
+         "sira": 1
+        },
+        {
+         "kod": "ol-de-ki-ve-mi-nin-yazimi",
+         "ad": "de, ki ve mi'nin Yazımı",
+         "sira": 2
+        },
+        {
+         "kod": "ol-sayilarin-ve-kisaltmalarin-yazimi",
+         "ad": "Sayıların ve Kısaltmaların Yazımı",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "noktalama-isaretleri",
+       "ad": "Noktalama İşaretleri",
+       "sira": 9,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-virgul-ve-noktali-virgul",
+         "ad": "Virgül ve Noktalı Virgül",
+         "sira": 1
+        },
+        {
+         "kod": "ol-diger-noktalama-isaretleri",
+         "ad": "Diğer Noktalama İşaretleri",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "anlatim-bozukluklari",
+       "ad": "Anlatım Bozuklukları",
+       "sira": 10,
+       "agirlik": 0.67,
+       "alt_konular": [
+        {
+         "kod": "ol-anlamsal-anlatim-bozukluklari",
+         "ad": "Anlamsal Anlatım Bozuklukları",
+         "sira": 1
+        },
+        {
+         "kod": "ol-yapisal-anlatim-bozukluklari",
+         "ad": "Yapısal Anlatım Bozuklukları",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "sozel-mantik",
+       "ad": "Sözel Mantık",
+       "sira": 11,
+       "agirlik": 4.0,
+       "alt_konular": [
+        {
+         "kod": "ol-siralama-ve-eslestirme-problemleri",
+         "ad": "Sıralama ve Eşleştirme Problemleri",
+         "sira": 1
+        },
+        {
+         "kod": "ol-tablo-ve-kosul-problemleri",
+         "ad": "Tablo ve Koşul Problemleri",
+         "sira": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kod": "ol-matematik",
+     "ad": "Matematik",
+     "soru_sayisi": 26,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "temel-kavramlar",
+       "ad": "Temel Kavramlar",
+       "sira": 1,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-sayi-kavrami-ve-basamak",
+         "ad": "Sayı Kavramı ve Basamak",
+         "sira": 1
+        },
+        {
+         "kod": "ol-tek-cift-ve-pozitif-negatif-sayilar",
+         "ad": "Tek-Çift ve Pozitif-Negatif Sayılar",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "sayilar-ve-bolunebilme",
+       "ad": "Sayılar ve Bölünebilme",
+       "sira": 2,
+       "agirlik": 2.21,
+       "alt_konular": [
+        {
+         "kod": "ol-bolme-ve-bolunebilme",
+         "ad": "Bölme ve Bölünebilme",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ebob---ekok",
+         "ad": "EBOB - EKOK",
+         "sira": 2
+        },
+        {
+         "kod": "ol-asal-sayilar-ve-carpanlar",
+         "ad": "Asal Sayılar ve Çarpanlar",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "rasyonel-ve-ondalik-sayilar",
+       "ad": "Rasyonel ve Ondalık Sayılar",
+       "sira": 3,
+       "agirlik": 2.14,
+       "alt_konular": [
+        {
+         "kod": "ol-kesirler-ve-siralama",
+         "ad": "Kesirler ve Sıralama",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ondalik-sayilar",
+         "ad": "Ondalık Sayılar",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "esitsizlik-ve-mutlak-deger",
+       "ad": "Eşitsizlik ve Mutlak Değer",
+       "sira": 4,
+       "agirlik": 1.4,
+       "alt_konular": [
+        {
+         "kod": "ol-basit-esitsizlikler",
+         "ad": "Basit Eşitsizlikler",
+         "sira": 1
+        },
+        {
+         "kod": "ol-mutlak-deger",
+         "ad": "Mutlak Değer",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "uslu-ve-koklu-sayilar",
+       "ad": "Üslü ve Köklü Sayılar",
+       "sira": 5,
+       "agirlik": 1.74,
+       "alt_konular": [
+        {
+         "kod": "ol-uslu-sayilar",
+         "ad": "Üslü Sayılar",
+         "sira": 1
+        },
+        {
+         "kod": "ol-koklu-sayilar",
+         "ad": "Köklü Sayılar",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "carpanlara-ayirma",
+       "ad": "Çarpanlara Ayırma",
+       "sira": 6,
+       "agirlik": 0.33,
+       "alt_konular": [
+        {
+         "kod": "ol-ozdeslikler-ve-carpanlara-ayirma",
+         "ad": "Özdeşlikler ve Çarpanlara Ayırma",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "denklem-ve-oran-oranti",
+       "ad": "Denklem ve Oran-Orantı",
+       "sira": 7,
+       "agirlik": 1.81,
+       "alt_konular": [
+        {
+         "kod": "ol-birinci-dereceden-denklemler",
+         "ad": "Birinci Dereceden Denklemler",
+         "sira": 1
+        },
+        {
+         "kod": "ol-oran---oranti",
+         "ad": "Oran - Orantı",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "problemler",
+       "ad": "Problemler",
+       "sira": 8,
+       "agirlik": 4.62,
+       "alt_konular": [
+        {
+         "kod": "ol-sayi-problemleri",
+         "ad": "Sayı Problemleri",
+         "sira": 1
+        },
+        {
+         "kod": "ol-kesir-problemleri",
+         "ad": "Kesir Problemleri",
+         "sira": 2
+        },
+        {
+         "kod": "ol-yas-problemleri",
+         "ad": "Yaş Problemleri",
+         "sira": 3
+        },
+        {
+         "kod": "ol-yuzde-ve-kar-zarar-problemleri",
+         "ad": "Yüzde ve Kâr-Zarar Problemleri",
+         "sira": 4
+        },
+        {
+         "kod": "ol-hiz-ve-hareket-problemleri",
+         "ad": "Hız ve Hareket Problemleri",
+         "sira": 5
+        },
+        {
+         "kod": "ol-isci-ve-havuz-problemleri",
+         "ad": "İşçi ve Havuz Problemleri",
+         "sira": 6
+        },
+        {
+         "kod": "ol-karisim-problemleri",
+         "ad": "Karışım Problemleri",
+         "sira": 7
+        }
+       ]
+      },
+      {
+       "kod": "kumeler-ve-fonksiyon",
+       "ad": "Kümeler ve Fonksiyon",
+       "sira": 9,
+       "agirlik": 2.88,
+       "alt_konular": [
+        {
+         "kod": "ol-kumeler",
+         "ad": "Kümeler",
+         "sira": 1
+        },
+        {
+         "kod": "ol-fonksiyon-kavrami",
+         "ad": "Fonksiyon Kavramı",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "islem-ve-moduler-aritmetik",
+       "ad": "İşlem ve Modüler Aritmetik",
+       "sira": 10,
+       "agirlik": 0.0,
+       "alt_konular": [
+        {
+         "kod": "ol-tanimli-islem",
+         "ad": "Tanımlı İşlem",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "sayma-ve-olasilik",
+       "ad": "Sayma ve Olasılık",
+       "sira": 11,
+       "agirlik": 2.17,
+       "alt_konular": [
+        {
+         "kod": "ol-faktoriyel-ve-saymanin-temel-ilkesi",
+         "ad": "Faktöriyel ve Saymanın Temel İlkesi",
+         "sira": 1
+        },
+        {
+         "kod": "ol-permutasyon---kombinasyon",
+         "ad": "Permütasyon - Kombinasyon",
+         "sira": 2
+        },
+        {
+         "kod": "ol-olasilik",
+         "ad": "Olasılık",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "tablo-ve-grafikler",
+       "ad": "Tablo ve Grafikler",
+       "sira": 12,
+       "agirlik": 2.14,
+       "alt_konular": [
+        {
+         "kod": "ol-tablo-ve-grafik-okuma",
+         "ad": "Tablo ve Grafik Okuma",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "sayisal-mantik",
+       "ad": "Sayısal Mantık",
+       "sira": 13,
+       "agirlik": 3.55,
+       "alt_konular": [
+        {
+         "kod": "ol-sayi-oruntuleri-ve-kuralli-sayilar",
+         "ad": "Sayı Örüntüleri ve Kurallı Sayılar",
+         "sira": 1
+        },
+        {
+         "kod": "ol-sekil-ve-kosul-mantigi",
+         "ad": "Şekil ve Koşul Mantığı",
+         "sira": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kod": "ol-geometri",
+     "ad": "Geometri",
+     "soru_sayisi": 4,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "acilar-ve-ucgenler",
+       "ad": "Açılar ve Üçgenler",
+       "sira": 1,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-dogruda-ve-cokgende-acilar",
+         "ad": "Doğruda ve Çokgende Açılar",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ucgenin-ozellikleri",
+         "ad": "Üçgenin Özellikleri",
+         "sira": 2
+        },
+        {
+         "kod": "ol-ucgende-cevre-ve-alan",
+         "ad": "Üçgende Çevre ve Alan",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "dortgenler-ve-cokgenler",
+       "ad": "Dörtgenler ve Çokgenler",
+       "sira": 2,
+       "agirlik": 0.44,
+       "alt_konular": [
+        {
+         "kod": "ol-dortgenler",
+         "ad": "Dörtgenler",
+         "sira": 1
+        },
+        {
+         "kod": "ol-cokgenler",
+         "ad": "Çokgenler",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "cember-ve-daire",
+       "ad": "Çember ve Daire",
+       "sira": 3,
+       "agirlik": 0.44,
+       "alt_konular": [
+        {
+         "kod": "ol-cember-ve-daire",
+         "ad": "Çember ve Daire",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "analitik-geometri-ve-kati-cisimler",
+       "ad": "Analitik Geometri ve Katı Cisimler",
+       "sira": 4,
+       "agirlik": 2.11,
+       "alt_konular": [
+        {
+         "kod": "ol-analitik-geometrinin-temelleri",
+         "ad": "Analitik Geometrinin Temelleri",
+         "sira": 1
+        },
+        {
+         "kod": "ol-kati-cisimler",
+         "ad": "Katı Cisimler",
+         "sira": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kod": "ol-genel-kultur",
+   "ad": "Genel Kültür",
+   "soru_sayisi": 60,
+   "sira": 2,
+   "dersler": [
+    {
+     "kod": "ol-tarih",
+     "ad": "Tarih",
+     "soru_sayisi": 27,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "islamiyet-oncesi-turk-tarihi",
+       "ad": "İslamiyet Öncesi Türk Tarihi",
+       "sira": 1,
+       "agirlik": 0.33,
+       "alt_konular": [
+        {
+         "kod": "ol-ilk-turk-devletleri",
+         "ad": "İlk Türk Devletleri",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "islamiyet-oncesi-kultur-ve-medeniyet",
+       "ad": "İslamiyet Öncesi Kültür ve Medeniyet",
+       "sira": 2,
+       "agirlik": 0.67,
+       "alt_konular": [
+        {
+         "kod": "ol-islamiyet-oncesi-turk-kultur-ve-medeniyeti",
+         "ad": "İslamiyet Öncesi Türk Kültür ve Medeniyeti",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "ilk-turk-islam-devletleri",
+       "ad": "İlk Türk-İslam Devletleri",
+       "sira": 3,
+       "agirlik": 1.33,
+       "alt_konular": [
+        {
+         "kod": "ol-karahanli-gazneli-ve-selcuklular",
+         "ad": "Karahanlı, Gazneli ve Selçuklular",
+         "sira": 1
+        },
+        {
+         "kod": "ol-anadolu-beylikleri",
+         "ad": "Anadolu Beylikleri",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "turk-islam-kultur-ve-medeniyeti",
+       "ad": "Türk-İslam Kültür ve Medeniyeti",
+       "sira": 4,
+       "agirlik": 1.33,
+       "alt_konular": [
+        {
+         "kod": "ol-turk-islam-devletlerinde-kultur-ve-yonetim",
+         "ad": "Türk-İslam Devletlerinde Kültür ve Yönetim",
+         "sira": 1
+        },
+        {
+         "kod": "ol-turk-islam-bilim-insanlari-ve-eserleri",
+         "ad": "Türk-İslam Bilim İnsanları ve Eserleri",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "osmanli-kurulus-ve-yukselme",
+       "ad": "Osmanlı Kuruluş ve Yükselme",
+       "sira": 5,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-kurulus-donemi",
+         "ad": "Kuruluş Dönemi",
+         "sira": 1
+        },
+        {
+         "kod": "ol-yukselme-donemi",
+         "ad": "Yükselme Dönemi",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "xvii-yuzyil-duraklama",
+       "ad": "XVII. Yüzyıl (Duraklama)",
+       "sira": 6,
+       "agirlik": 0.67,
+       "alt_konular": [
+        {
+         "kod": "ol-duraklama-donemi-ve-islahatlar",
+         "ad": "Duraklama Dönemi ve Islahatlar",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "xviii-yuzyil-gerileme",
+       "ad": "XVIII. Yüzyıl (Gerileme)",
+       "sira": 7,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-gerileme-donemi-ve-islahatlar",
+         "ad": "Gerileme Dönemi ve Islahatlar",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "xix-yuzyil-dagilma",
+       "ad": "XIX. Yüzyıl (Dağılma)",
+       "sira": 8,
+       "agirlik": 1.33,
+       "alt_konular": [
+        {
+         "kod": "ol-dagilma-donemi-ve-tanzimat",
+         "ad": "Dağılma Dönemi ve Tanzimat",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "xx-yuzyil-osmanli",
+       "ad": "XX. Yüzyıl Osmanlı",
+       "sira": 9,
+       "agirlik": 1.33,
+       "alt_konular": [
+        {
+         "kod": "ol-trablusgarp-ve-balkan-savaslari",
+         "ad": "Trablusgarp ve Balkan Savaşları",
+         "sira": 1
+        },
+        {
+         "kod": "ol-i-dunya-savasi",
+         "ad": "I. Dünya Savaşı",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "osmanli-kultur-ve-medeniyeti",
+       "ad": "Osmanlı Kültür ve Medeniyeti",
+       "sira": 10,
+       "agirlik": 4.0,
+       "alt_konular": [
+        {
+         "kod": "ol-osmanli-devlet-yonetimi",
+         "ad": "Osmanlı Devlet Yönetimi",
+         "sira": 1
+        },
+        {
+         "kod": "ol-osmanli-toprak-sistemi-ve-ordu",
+         "ad": "Osmanlı Toprak Sistemi ve Ordu",
+         "sira": 2
+        },
+        {
+         "kod": "ol-osmanli-egitim-bilim-ve-sanat",
+         "ad": "Osmanlı Eğitim, Bilim ve Sanat",
+         "sira": 3
+        },
+        {
+         "kod": "ol-osmanli-ekonomisi-ve-toplum-yapisi",
+         "ad": "Osmanlı Ekonomisi ve Toplum Yapısı",
+         "sira": 4
+        }
+       ]
+      },
+      {
+       "kod": "milli-mucadele-donemi",
+       "ad": "Millî Mücadele Dönemi",
+       "sira": 11,
+       "agirlik": 4.67,
+       "alt_konular": [
+        {
+         "kod": "ol-mondros-isgaller-ve-cemiyetler",
+         "ad": "Mondros, İşgaller ve Cemiyetler",
+         "sira": 1
+        },
+        {
+         "kod": "ol-kongreler-donemi",
+         "ad": "Kongreler Dönemi",
+         "sira": 2
+        },
+        {
+         "kod": "ol-tbmm-nin-acilisi-ve-ayaklanmalar",
+         "ad": "TBMM'nin Açılışı ve Ayaklanmalar",
+         "sira": 3
+        },
+        {
+         "kod": "ol-muharebeler-ve-antlasmalar",
+         "ad": "Muharebeler ve Antlaşmalar",
+         "sira": 4
+        }
+       ]
+      },
+      {
+       "kod": "inkilap-tarihi",
+       "ad": "İnkılap Tarihi",
+       "sira": 12,
+       "agirlik": 4.67,
+       "alt_konular": [
+        {
+         "kod": "ol-siyasi-alanda-inkilaplar",
+         "ad": "Siyasi Alanda İnkılaplar",
+         "sira": 1
+        },
+        {
+         "kod": "ol-hukuk-ve-egitim-inkilaplari",
+         "ad": "Hukuk ve Eğitim İnkılapları",
+         "sira": 2
+        },
+        {
+         "kod": "ol-ekonomi-ve-toplumsal-alanda-inkilaplar",
+         "ad": "Ekonomi ve Toplumsal Alanda İnkılaplar",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "ataturk-donemi-ic-ve-dis-politika",
+       "ad": "Atatürk Dönemi İç ve Dış Politika",
+       "sira": 13,
+       "agirlik": 1.0,
+       "alt_konular": [
+        {
+         "kod": "ol-ic-politika-ve-cok-partili-hayat-denemeleri",
+         "ad": "İç Politika ve Çok Partili Hayat Denemeleri",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ataturk-donemi-dis-politikasi",
+         "ad": "Atatürk Dönemi Dış Politikası",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "ataturk-ilkeleri",
+       "ad": "Atatürk İlkeleri",
+       "sira": 14,
+       "agirlik": 0.0,
+       "alt_konular": [
+        {
+         "kod": "ol-ataturk-ilkeleri-ve-butunleyici-ilkeler",
+         "ad": "Atatürk İlkeleri ve Bütünleyici İlkeler",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "ataturk-un-hayati-ve-kisiligi",
+       "ad": "Atatürk'ün Hayatı ve Kişiliği",
+       "sira": 15,
+       "agirlik": 0.0,
+       "alt_konular": [
+        {
+         "kod": "ol-ataturk-un-hayati-ve-kisiligi",
+         "ad": "Atatürk'ün Hayatı ve Kişiliği",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "cagdas-turk-ve-dunya-tarihi",
+       "ad": "Çağdaş Türk ve Dünya Tarihi",
+       "sira": 16,
+       "agirlik": 3.67,
+       "alt_konular": [
+        {
+         "kod": "ol-iki-savas-arasi-donem",
+         "ad": "İki Savaş Arası Dönem",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ii-dunya-savasi-ve-sonrasi",
+         "ad": "II. Dünya Savaşı ve Sonrası",
+         "sira": 2
+        },
+        {
+         "kod": "ol-soguk-savas-ve-gunumuz-dunyasi",
+         "ad": "Soğuk Savaş ve Günümüz Dünyası",
+         "sira": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kod": "ol-cografya",
+     "ad": "Coğrafya",
+     "soru_sayisi": 18,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "cografi-konum",
+       "ad": "Coğrafi Konum",
+       "sira": 1,
+       "agirlik": 1.67,
+       "alt_konular": [
+        {
+         "kod": "ol-matematik-konum",
+         "ad": "Matematik Konum",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ozel-konum",
+         "ad": "Özel Konum",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "yer-sekilleri",
+       "ad": "Yer Şekilleri",
+       "sira": 2,
+       "agirlik": 4.67,
+       "alt_konular": [
+        {
+         "kod": "ol-daglar-platolar-ve-ovalar",
+         "ad": "Dağlar, Platolar ve Ovalar",
+         "sira": 1
+        },
+        {
+         "kod": "ol-akarsular-goller-ve-denizler",
+         "ad": "Akarsular, Göller ve Denizler",
+         "sira": 2
+        },
+        {
+         "kod": "ol-topraklar-ve-erozyon",
+         "ad": "Topraklar ve Erozyon",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "iklim-ve-bitki-ortusu",
+       "ad": "İklim ve Bitki Örtüsü",
+       "sira": 3,
+       "agirlik": 1.67,
+       "alt_konular": [
+        {
+         "kod": "ol-turkiye-nin-iklimi",
+         "ad": "Türkiye'nin İklimi",
+         "sira": 1
+        },
+        {
+         "kod": "ol-bitki-ortusu",
+         "ad": "Bitki Örtüsü",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "nufus-ve-yerlesme",
+       "ad": "Nüfus ve Yerleşme",
+       "sira": 4,
+       "agirlik": 2.33,
+       "alt_konular": [
+        {
+         "kod": "ol-nufusun-ozellikleri-ve-sayimlar",
+         "ad": "Nüfusun Özellikleri ve Sayımlar",
+         "sira": 1
+        },
+        {
+         "kod": "ol-gocler-ve-yerlesme",
+         "ad": "Göçler ve Yerleşme",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "tarim-ve-hayvancilik",
+       "ad": "Tarım ve Hayvancılık",
+       "sira": 5,
+       "agirlik": 2.0,
+       "alt_konular": [
+        {
+         "kod": "ol-tarim-urunleri-ve-dagilisi",
+         "ad": "Tarım Ürünleri ve Dağılışı",
+         "sira": 1
+        },
+        {
+         "kod": "ol-hayvancilik-ve-ormancilik",
+         "ad": "Hayvancılık ve Ormancılık",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "madenler-enerji-ve-sanayi",
+       "ad": "Madenler, Enerji ve Sanayi",
+       "sira": 6,
+       "agirlik": 2.67,
+       "alt_konular": [
+        {
+         "kod": "ol-madenler-ve-dagilisi",
+         "ad": "Madenler ve Dağılışı",
+         "sira": 1
+        },
+        {
+         "kod": "ol-enerji-kaynaklari",
+         "ad": "Enerji Kaynakları",
+         "sira": 2
+        },
+        {
+         "kod": "ol-sanayi-kollari-ve-dagilisi",
+         "ad": "Sanayi Kolları ve Dağılışı",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "ulasim-ticaret-ve-turizm",
+       "ad": "Ulaşım, Ticaret ve Turizm",
+       "sira": 7,
+       "agirlik": 2.67,
+       "alt_konular": [
+        {
+         "kod": "ol-ulasim",
+         "ad": "Ulaşım",
+         "sira": 1
+        },
+        {
+         "kod": "ol-ticaret",
+         "ad": "Ticaret",
+         "sira": 2
+        },
+        {
+         "kod": "ol-turizm",
+         "ad": "Turizm",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "cografi-bolgeler",
+       "ad": "Coğrafi Bölgeler",
+       "sira": 8,
+       "agirlik": 0.33,
+       "alt_konular": [
+        {
+         "kod": "ol-cografi-bolgelerin-ozellikleri",
+         "ad": "Coğrafi Bölgelerin Özellikleri",
+         "sira": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kod": "ol-vatandaslik",
+     "ad": "Vatandaşlık",
+     "soru_sayisi": 9,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "hukukun-temel-kavramlari",
+       "ad": "Hukukun Temel Kavramları",
+       "sira": 1,
+       "agirlik": 2.33,
+       "alt_konular": [
+        {
+         "kod": "ol-hukuk-kurallari-ve-yaptirim",
+         "ad": "Hukuk Kuralları ve Yaptırım",
+         "sira": 1
+        },
+        {
+         "kod": "ol-hukukun-dallari-ve-kaynaklari",
+         "ad": "Hukukun Dalları ve Kaynakları",
+         "sira": 2
+        },
+        {
+         "kod": "ol-hak-kisilik-ve-ehliyet",
+         "ad": "Hak, Kişilik ve Ehliyet",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "anayasa-ve-temel-haklar",
+       "ad": "Anayasa ve Temel Haklar",
+       "sira": 2,
+       "agirlik": 0.0,
+       "alt_konular": [
+        {
+         "kod": "ol-anayasanin-genel-esaslari",
+         "ad": "Anayasanın Genel Esasları",
+         "sira": 1
+        },
+        {
+         "kod": "ol-temel-hak-ve-odevler",
+         "ad": "Temel Hak ve Ödevler",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "yasama",
+       "ad": "Yasama",
+       "sira": 3,
+       "agirlik": 1.33,
+       "alt_konular": [
+        {
+         "kod": "ol-tbmm-nin-yapisi-ve-gorevleri",
+         "ad": "TBMM'nin Yapısı ve Görevleri",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "yurutme",
+       "ad": "Yürütme",
+       "sira": 4,
+       "agirlik": 1.67,
+       "alt_konular": [
+        {
+         "kod": "ol-cumhurbaskani-ve-cumhurbaskanligi-hukumet-sistemi",
+         "ad": "Cumhurbaşkanı ve Cumhurbaşkanlığı Hükûmet Sistemi",
+         "sira": 1
+        },
+        {
+         "kod": "ol-bakanliklar-ve-kamu-yonetimi",
+         "ad": "Bakanlıklar ve Kamu Yönetimi",
+         "sira": 2
+        }
+       ]
+      },
+      {
+       "kod": "yargi",
+       "ad": "Yargı",
+       "sira": 5,
+       "agirlik": 1.33,
+       "alt_konular": [
+        {
+         "kod": "ol-yargi-organlari-ve-yuksek-mahkemeler",
+         "ad": "Yargı Organları ve Yüksek Mahkemeler",
+         "sira": 1
+        }
+       ]
+      },
+      {
+       "kod": "idare-hukuku",
+       "ad": "İdare Hukuku",
+       "sira": 6,
+       "agirlik": 2.33,
+       "alt_konular": [
+        {
+         "kod": "ol-merkezi-idare",
+         "ad": "Merkezî İdare",
+         "sira": 1
+        },
+        {
+         "kod": "ol-yerel-yonetimler",
+         "ad": "Yerel Yönetimler",
+         "sira": 2
+        },
+        {
+         "kod": "ol-kamu-gorevlileri-ve-idari-islemler",
+         "ad": "Kamu Görevlileri ve İdari İşlemler",
+         "sira": 3
+        }
+       ]
+      },
+      {
+       "kod": "uluslararasi-orgutler",
+       "ad": "Uluslararası Örgütler",
+       "sira": 7,
+       "agirlik": 0.0,
+       "alt_konular": [
+        {
+         "kod": "ol-uluslararasi-orgutler",
+         "ad": "Uluslararası Örgütler",
+         "sira": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kod": "ol-guncel-bilgiler",
+     "ad": "Güncel Bilgiler",
+     "soru_sayisi": 6,
+     "agirlik_kaynak_sayisi": 3,
+     "konular": [
+      {
+       "kod": "guncel-bilgiler",
+       "ad": "Güncel Bilgiler",
+       "sira": 1,
+       "agirlik": 6.0,
+       "alt_konular": [
+        {
+         "kod": "ol-bilim-teknoloji-ve-cevre-gundemi",
+         "ad": "Bilim, Teknoloji ve Çevre Gündemi",
+         "sira": 1
+        },
+        {
+         "kod": "ol-kultur-sanat-ve-spor-gundemi",
+         "ad": "Kültür, Sanat ve Spor Gündemi",
+         "sira": 2
+        },
+        {
+         "kod": "ol-turkiye-ve-dunya-gundemi",
+         "ad": "Türkiye ve Dünya Gündemi",
+         "sira": 3
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

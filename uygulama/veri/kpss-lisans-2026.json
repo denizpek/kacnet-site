@@ -1,0 +1,3200 @@
+{
+  "kod": "kpss-lisans-2026",
+  "ad": "KPSS Lisans Genel Yetenek – Genel Kültür",
+  "yil": 2026,
+  "seviye": "lisans",
+  "toplam_soru": 120,
+  "sure_dakika": 130,
+  "kaynak_notu": "Konu ağacı Deniz'in sağladığı ayrıntılı müfredat metninden; soru ağırlıkları 2015-2024 çıkmış sınav tablolarından (2022-24 ortalaması, ders toplamına normalize) türetilmiştir.",
+  "bolumler": [
+    {
+      "kod": "genel-yetenek",
+      "ad": "Genel Yetenek Testi",
+      "soru_sayisi": 60,
+      "sira": 1,
+      "dersler": [
+        {
+          "kod": "turkce",
+          "ad": "Türkçe",
+          "soru_sayisi": 30,
+          "konular": [
+            {
+              "kod": "sozcukte-anlam",
+              "ad": "Sözcükte Anlam",
+              "sira": 1,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "gercek-anlam",
+                  "ad": "Gerçek Anlam",
+                  "sira": 1,
+                  "grup": "Sözcüğün Anlam Özellikleri"
+                },
+                {
+                  "kod": "mecaz-anlam",
+                  "ad": "Mecaz Anlam",
+                  "sira": 2,
+                  "grup": "Sözcüğün Anlam Özellikleri"
+                },
+                {
+                  "kod": "terimsel-anlam",
+                  "ad": "Terimsel Anlam",
+                  "sira": 3,
+                  "grup": "Sözcüğün Anlam Özellikleri"
+                },
+                {
+                  "kod": "benzetme-tesbih",
+                  "ad": "Benzetme (Teşbih)",
+                  "sira": 4,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "egretileme-istiare",
+                  "ad": "Eğretileme (İstiare)",
+                  "sira": 5,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "kisilestirme-teshis",
+                  "ad": "Kişileştirme (Teşhis)",
+                  "sira": 6,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "kinaye-deginmece",
+                  "ad": "Kinaye (Değinmece)",
+                  "sira": 7,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "mecazimursel-ad-aktarmasi",
+                  "ad": "Mecazımürsel (Ad Aktarması)",
+                  "sira": 8,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "dokundurma-tariz",
+                  "ad": "Dokundurma (Tariz)",
+                  "sira": 9,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "mubalaga-abartma",
+                  "ad": "Mübalağa (Abartma)",
+                  "sira": 10,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "dolaylama",
+                  "ad": "Dolaylama",
+                  "sira": 11,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "guzel-adlandirma",
+                  "ad": "Güzel Adlandırma",
+                  "sira": 12,
+                  "grup": "Sözcükte Anlam Olayları"
+                },
+                {
+                  "kod": "es-ve-yakin-anlamli-sozcukler",
+                  "ad": "Eş ve Yakın Anlamlı Sözcükler",
+                  "sira": 13,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "karsit-zit-anlamli-sozcukler",
+                  "ad": "Karşıt (Zıt) Anlamlı Sözcükler",
+                  "sira": 14,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "es-sesli-sestes-sozcukler",
+                  "ad": "Eş Sesli (Sesteş) Sözcükler",
+                  "sira": 15,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "somut-ve-soyut-anlamli-sozcukler",
+                  "ad": "Somut ve Soyut Anlamlı Sözcükler",
+                  "sira": 16,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "nitel-ve-nicel-anlamli-sozcukler",
+                  "ad": "Nitel ve Nicel Anlamlı Sözcükler",
+                  "sira": 17,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "genel-ve-ozel-anlamli-sozcukler",
+                  "ad": "Genel ve Özel Anlamlı Sözcükler",
+                  "sira": 18,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "yansima-sozcukler",
+                  "ad": "Yansıma Sözcükler",
+                  "sira": 19,
+                  "grup": "Sözcükler Arası Anlam İlişkileri"
+                },
+                {
+                  "kod": "ikilemeler",
+                  "ad": "İkilemeler",
+                  "sira": 20,
+                  "grup": "Kalıplaşmış Söz Öbekleri"
+                },
+                {
+                  "kod": "pekistirmeler",
+                  "ad": "Pekiştirmeler",
+                  "sira": 21,
+                  "grup": "Kalıplaşmış Söz Öbekleri"
+                },
+                {
+                  "kod": "deyimler",
+                  "ad": "Deyimler",
+                  "sira": 22,
+                  "grup": "Kalıplaşmış Söz Öbekleri"
+                },
+                {
+                  "kod": "atasozleri",
+                  "ad": "Atasözleri",
+                  "sira": 23,
+                  "grup": "Kalıplaşmış Söz Öbekleri"
+                },
+                {
+                  "kod": "kaliplasmamis-soz-obekleri",
+                  "ad": "Kalıplaşmamış Söz Öbekleri",
+                  "sira": 24,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "cumlede-anlam",
+              "ad": "Cümlede Anlam",
+              "sira": 2,
+              "agirlik": 2.0,
+              "alt_konular": [
+                {
+                  "kod": "cumlenin-iletisi",
+                  "ad": "Cümlenin İletisi",
+                  "sira": 1,
+                  "grup": "Cümlenin Yorumu"
+                },
+                {
+                  "kod": "cumleden-cikarilacak-kesin-yargi",
+                  "ad": "Cümleden Çıkarılacak Kesin Yargı",
+                  "sira": 2,
+                  "grup": "Cümlenin Yorumu"
+                },
+                {
+                  "kod": "cumlede-vurgu",
+                  "ad": "Cümlede Vurgu",
+                  "sira": 3,
+                  "grup": "Cümlenin Yorumu"
+                },
+                {
+                  "kod": "es-ve-yakin-anlamli-cumleler",
+                  "ad": "Eş ve Yakın Anlamlı Cümleler",
+                  "sira": 4,
+                  "grup": "Cümlenin Yorumu"
+                },
+                {
+                  "kod": "anlamca-celisen-cumleler",
+                  "ad": "Anlamca Çelişen Cümleler",
+                  "sira": 5,
+                  "grup": "Cümlenin Yorumu"
+                },
+                {
+                  "kod": "olumlu-cumleler",
+                  "ad": "Olumlu Cümleler",
+                  "sira": 6,
+                  "grup": "Anlamlarına Göre Cümleler"
+                },
+                {
+                  "kod": "olumsuz-cumleler",
+                  "ad": "Olumsuz Cümleler",
+                  "sira": 7,
+                  "grup": "Anlamlarına Göre Cümleler"
+                },
+                {
+                  "kod": "soru-cumleleri",
+                  "ad": "Soru Cümleleri",
+                  "sira": 8,
+                  "grup": "Anlamlarına Göre Cümleler"
+                },
+                {
+                  "kod": "unlem-cumleleri",
+                  "ad": "Ünlem Cümleleri",
+                  "sira": 9,
+                  "grup": "Anlamlarına Göre Cümleler"
+                },
+                {
+                  "kod": "emir-cumleleri",
+                  "ad": "Emir Cümleleri",
+                  "sira": 10,
+                  "grup": "Anlamlarına Göre Cümleler"
+                },
+                {
+                  "kod": "cikarim",
+                  "ad": "Çıkarım",
+                  "sira": 11,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "kaniksama",
+                  "ad": "Kanıksama",
+                  "sira": 12,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "saptama",
+                  "ad": "Saptama",
+                  "sira": 13,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "degerlendirme",
+                  "ad": "Değerlendirme",
+                  "sira": 14,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "yakinma-sitem",
+                  "ad": "Yakınma - Sitem",
+                  "sira": 15,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "pismanlik",
+                  "ad": "Pişmanlık",
+                  "sira": 16,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "on-yargi",
+                  "ad": "Ön Yargı",
+                  "sira": 17,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "cumlede-olasilik",
+                  "ad": "Olasılık",
+                  "sira": 18,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "varsayim",
+                  "ad": "Varsayım",
+                  "sira": 19,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "tahmin",
+                  "ad": "Tahmin",
+                  "sira": 20,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "sasirma",
+                  "ad": "Şaşırma",
+                  "sira": 21,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "kusku",
+                  "ad": "Kuşku",
+                  "sira": 22,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "uyari",
+                  "ad": "Uyarı",
+                  "sira": 23,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "oneri",
+                  "ad": "Öneri",
+                  "sira": 24,
+                  "grup": "İçerdiği Duygu, Düşünce ve Duruma Göre Cümleler"
+                },
+                {
+                  "kod": "neden-sonuc-gerekce-iliskisi",
+                  "ad": "Neden - Sonuç (Gerekçe) İlişkisi",
+                  "sira": 25,
+                  "grup": "Anlam İlişkilerine Göre Cümleler"
+                },
+                {
+                  "kod": "amac-sonuc-iliskisi",
+                  "ad": "Amaç - Sonuç İlişkisi",
+                  "sira": 26,
+                  "grup": "Anlam İlişkilerine Göre Cümleler"
+                },
+                {
+                  "kod": "kosul-sart-cumleleri",
+                  "ad": "Koşul (Şart) Cümleleri",
+                  "sira": 27,
+                  "grup": "Anlam İlişkilerine Göre Cümleler"
+                },
+                {
+                  "kod": "oznel-ve-nesnel-anlatim",
+                  "ad": "Öznel ve Nesnel Anlatım",
+                  "sira": 28,
+                  "grup": "Anlatım Özelliklerine Göre Cümleler"
+                },
+                {
+                  "kod": "tanim-cumleleri",
+                  "ad": "Tanım Cümleleri",
+                  "sira": 29,
+                  "grup": "Anlatım Özelliklerine Göre Cümleler"
+                },
+                {
+                  "kod": "karsilastirma-cumleleri",
+                  "ad": "Karşılaştırma Cümleleri",
+                  "sira": 30,
+                  "grup": "Anlatım Özelliklerine Göre Cümleler"
+                },
+                {
+                  "kod": "icerik-ve-uslup-bicem-bildiren-cumleler",
+                  "ad": "İçerik ve Üslup (Biçem) Bildiren Cümleler",
+                  "sira": 31,
+                  "grup": "Anlatım Özelliklerine Göre Cümleler"
+                },
+                {
+                  "kod": "dogrudan-anlatim-aktarma-cumleleri",
+                  "ad": "Doğrudan Anlatım (Aktarma) Cümleleri",
+                  "sira": 32,
+                  "grup": "Anlatım Özelliklerine Göre Cümleler"
+                },
+                {
+                  "kod": "dolayli-anlatim-aktarma-cumleleri",
+                  "ad": "Dolaylı Anlatım (Aktarma) Cümleleri",
+                  "sira": 33,
+                  "grup": "Anlatım Özelliklerine Göre Cümleler"
+                },
+                {
+                  "kod": "cumlenin-yapisi",
+                  "ad": "Cümlenin Yapısı",
+                  "sira": 34,
+                  "grup": "Cümle Analizi"
+                },
+                {
+                  "kod": "cumle-tamamlama",
+                  "ad": "Cümle Tamamlama",
+                  "sira": 35,
+                  "grup": "Cümle Analizi"
+                },
+                {
+                  "kod": "cumle-olusturma",
+                  "ad": "Cümle Oluşturma",
+                  "sira": 36,
+                  "grup": "Cümle Analizi"
+                }
+              ]
+            },
+            {
+              "kod": "paragrafta-anlam",
+              "ad": "Paragrafta Anlam",
+              "sira": 3,
+              "agirlik": 15.33,
+              "alt_konular": [
+                {
+                  "kod": "paragrafin-bolumleri-ve-bosluk-tamamlama",
+                  "ad": "Paragrafın Bölümleri ve Boşluk Tamamlama",
+                  "sira": 1,
+                  "grup": "Paragrafın Yapısı"
+                },
+                {
+                  "kod": "dusuncenin-akisini-bozan-cumleler",
+                  "ad": "Düşüncenin Akışını Bozan Cümleler",
+                  "sira": 2,
+                  "grup": "Paragrafın Yapısı"
+                },
+                {
+                  "kod": "paragrafi-ikiye-bolme",
+                  "ad": "Paragrafı İkiye Bölme",
+                  "sira": 3,
+                  "grup": "Paragrafın Yapısı"
+                },
+                {
+                  "kod": "paragraf-olusturma",
+                  "ad": "Paragraf Oluşturma",
+                  "sira": 4,
+                  "grup": "Paragrafın Yapısı"
+                },
+                {
+                  "kod": "paragrafta-yer-degistirme",
+                  "ad": "Paragrafta Yer Değiştirme",
+                  "sira": 5,
+                  "grup": "Paragrafın Yapısı"
+                },
+                {
+                  "kod": "ana-dusunce",
+                  "ad": "Ana Düşünce",
+                  "sira": 6,
+                  "grup": "Paragrafın İçeriği"
+                },
+                {
+                  "kod": "yardimci-dusunceler",
+                  "ad": "Yardımcı Düşünceler",
+                  "sira": 7,
+                  "grup": "Paragrafın İçeriği"
+                },
+                {
+                  "kod": "aciklayici-anlatim",
+                  "ad": "Açıklayıcı Anlatım",
+                  "sira": 8,
+                  "grup": "Paragrafta Anlatım Biçimleri"
+                },
+                {
+                  "kod": "tartismaci-anlatim",
+                  "ad": "Tartışmacı Anlatım",
+                  "sira": 9,
+                  "grup": "Paragrafta Anlatım Biçimleri"
+                },
+                {
+                  "kod": "oykuleyici-anlatim",
+                  "ad": "Öyküleyici Anlatım",
+                  "sira": 10,
+                  "grup": "Paragrafta Anlatım Biçimleri"
+                },
+                {
+                  "kod": "betimleyici-anlatim",
+                  "ad": "Betimleyici Anlatım",
+                  "sira": 11,
+                  "grup": "Paragrafta Anlatım Biçimleri"
+                },
+                {
+                  "kod": "tanimlama",
+                  "ad": "Tanımlama",
+                  "sira": 12,
+                  "grup": "Düşünceyi Geliştirme Yolları"
+                },
+                {
+                  "kod": "karsilastirma",
+                  "ad": "Karşılaştırma",
+                  "sira": 13,
+                  "grup": "Düşünceyi Geliştirme Yolları"
+                },
+                {
+                  "kod": "ornekleme",
+                  "ad": "Örnekleme",
+                  "sira": 14,
+                  "grup": "Düşünceyi Geliştirme Yolları"
+                }
+              ]
+            },
+            {
+              "kod": "ses-bilgisi",
+              "ad": "Ses Bilgisi",
+              "sira": 4,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "unlu-sesler-ve-unlu-uyumlari",
+                  "ad": "Ünlü Sesler ve Ünlü Uyumları",
+                  "sira": 1,
+                  "grup": "Sesler"
+                },
+                {
+                  "kod": "unsuz-sesler",
+                  "ad": "Ünsüz Sesler",
+                  "sira": 2,
+                  "grup": "Sesler"
+                },
+                {
+                  "kod": "unsuz-degisimi-yumusama",
+                  "ad": "Ünsüz Değişimi (Yumuşama)",
+                  "sira": 3,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "unsuz-benzesmesi-sertlesme",
+                  "ad": "Ünsüz Benzeşmesi (Sertleşme)",
+                  "sira": 4,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "ses-dusmesi",
+                  "ad": "Ses Düşmesi",
+                  "sira": 5,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "ses-turemesi",
+                  "ad": "Ses Türemesi",
+                  "sira": 6,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "ulama",
+                  "ad": "Ulama",
+                  "sira": 7,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "dudak-unsuzlerinin-benzesmesi",
+                  "ad": "Dudak Ünsüzlerinin Benzeşmesi",
+                  "sira": 8,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "unlu-daralmasi",
+                  "ad": "Ünlü Daralması",
+                  "sira": 9,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "kokte-unlu-degisimi",
+                  "ad": "Kökte Ünlü Değişimi",
+                  "sira": 10,
+                  "grup": "Ses Olayları"
+                },
+                {
+                  "kod": "yardimci-sesler",
+                  "ad": "Yardımcı Sesler",
+                  "sira": 11,
+                  "grup": "Ses Olayları"
+                }
+              ]
+            },
+            {
+              "kod": "yapi-bilgisi",
+              "ad": "Yapı Bilgisi",
+              "sira": 5,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "kok-ve-govde",
+                  "ad": "Kök ve Gövde",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "yapim-ekleri",
+                  "ad": "Yapım Ekleri",
+                  "sira": 2,
+                  "grup": "Ekler"
+                },
+                {
+                  "kod": "cekim-ekleri",
+                  "ad": "Çekim Ekleri",
+                  "sira": 3,
+                  "grup": "Ekler"
+                },
+                {
+                  "kod": "yapilarina-gore-sozcukler",
+                  "ad": "Yapılarına Göre Sözcükler",
+                  "sira": 4,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "sozcuk-turleri",
+              "ad": "Sözcük Türleri",
+              "sira": 6,
+              "agirlik": 2.0,
+              "alt_konular": [
+                {
+                  "kod": "varliklarin-turune-gore-isimler",
+                  "ad": "Varlıkların Türüne Göre İsimler",
+                  "sira": 1,
+                  "grup": "İsim (Ad)"
+                },
+                {
+                  "kod": "varliklarin-sayilarina-gore-isimler",
+                  "ad": "Varlıkların Sayılarına Göre İsimler",
+                  "sira": 2,
+                  "grup": "İsim (Ad)"
+                },
+                {
+                  "kod": "ismin-halleri",
+                  "ad": "İsmin Hâlleri",
+                  "sira": 3,
+                  "grup": "İsim (Ad)"
+                },
+                {
+                  "kod": "isim-tamlamalari",
+                  "ad": "İsim Tamlamaları",
+                  "sira": 4,
+                  "grup": "İsim (Ad)"
+                },
+                {
+                  "kod": "kisi-zamirleri",
+                  "ad": "Kişi Zamirleri",
+                  "sira": 5,
+                  "grup": "Zamir (Adıl)"
+                },
+                {
+                  "kod": "isaret-zamirleri",
+                  "ad": "İşaret Zamirleri",
+                  "sira": 6,
+                  "grup": "Zamir (Adıl)"
+                },
+                {
+                  "kod": "belgisiz-zamirler",
+                  "ad": "Belgisiz Zamirler",
+                  "sira": 7,
+                  "grup": "Zamir (Adıl)"
+                },
+                {
+                  "kod": "soru-zamirleri",
+                  "ad": "Soru Zamirleri",
+                  "sira": 8,
+                  "grup": "Zamir (Adıl)"
+                },
+                {
+                  "kod": "ilgi-zamiri-aitlik-eki",
+                  "ad": "İlgi Zamiri (Aitlik Eki)",
+                  "sira": 9,
+                  "grup": "Zamir (Adıl)"
+                },
+                {
+                  "kod": "niteleme-sifatlari",
+                  "ad": "Niteleme Sıfatları",
+                  "sira": 10,
+                  "grup": "Sıfat (Ön Ad)"
+                },
+                {
+                  "kod": "belirtme-sifatlari",
+                  "ad": "Belirtme Sıfatları",
+                  "sira": 11,
+                  "grup": "Sıfat (Ön Ad)"
+                },
+                {
+                  "kod": "adlasmis-sifatlar",
+                  "ad": "Adlaşmış Sıfatlar",
+                  "sira": 12,
+                  "grup": "Sıfat (Ön Ad)"
+                },
+                {
+                  "kod": "durum-zarflari",
+                  "ad": "Durum Zarfları",
+                  "sira": 13,
+                  "grup": "Zarf (Belirteç)"
+                },
+                {
+                  "kod": "yer-yon-zarflari",
+                  "ad": "Yer-Yön Zarfları",
+                  "sira": 14,
+                  "grup": "Zarf (Belirteç)"
+                },
+                {
+                  "kod": "zaman-zarflari",
+                  "ad": "Zaman Zarfları",
+                  "sira": 15,
+                  "grup": "Zarf (Belirteç)"
+                },
+                {
+                  "kod": "olcu-miktar-zarflari",
+                  "ad": "Ölçü-Miktar Zarfları",
+                  "sira": 16,
+                  "grup": "Zarf (Belirteç)"
+                },
+                {
+                  "kod": "soru-zarflari",
+                  "ad": "Soru Zarfları",
+                  "sira": 17,
+                  "grup": "Zarf (Belirteç)"
+                },
+                {
+                  "kod": "edat-ilgec",
+                  "ad": "Edat (İlgeç)",
+                  "sira": 18,
+                  "grup": null
+                },
+                {
+                  "kod": "baglac",
+                  "ad": "Bağlaç",
+                  "sira": 19,
+                  "grup": null
+                },
+                {
+                  "kod": "unlem",
+                  "ad": "Ünlem",
+                  "sira": 20,
+                  "grup": null
+                },
+                {
+                  "kod": "is-kilis-fiilleri",
+                  "ad": "İş (Kılış) Fiilleri",
+                  "sira": 21,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "olus-fiilleri",
+                  "ad": "Oluş Fiilleri",
+                  "sira": 22,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "durum-fiilleri",
+                  "ad": "Durum Fiilleri",
+                  "sira": 23,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "fiillerde-kip",
+                  "ad": "Fiillerde Kip",
+                  "sira": 24,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "fiillerde-kisi",
+                  "ad": "Fiillerde Kişi",
+                  "sira": 25,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "fiillerde-olumsuzluk",
+                  "ad": "Fiillerde Olumsuzluk",
+                  "sira": 26,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "fiillerde-anlam-zaman-kaymasi",
+                  "ad": "Fiillerde Anlam (Zaman) Kayması",
+                  "sira": 27,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "fiillerde-cati",
+                  "ad": "Fiillerde Çatı",
+                  "sira": 28,
+                  "grup": "Fiil (Eylem)"
+                },
+                {
+                  "kod": "fiilimsiler",
+                  "ad": "Fiilimsiler",
+                  "sira": 29,
+                  "grup": null
+                },
+                {
+                  "kod": "fiilimsi-gruplari",
+                  "ad": "Fiilimsi Grupları",
+                  "sira": 30,
+                  "grup": null
+                },
+                {
+                  "kod": "yardimci-fiiller",
+                  "ad": "Yardımcı Fiiller",
+                  "sira": 31,
+                  "grup": null
+                },
+                {
+                  "kod": "ek-fiil-ek-eylem",
+                  "ad": "Ek Fiil (Ek-Eylem)",
+                  "sira": 32,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "cumle-bilgisi",
+              "ad": "Cümle Bilgisi",
+              "sira": 7,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "yuklemlerine-gore-cumleler",
+                  "ad": "Yüklemlerine Göre Cümleler",
+                  "sira": 1,
+                  "grup": "Cümle Türleri"
+                },
+                {
+                  "kod": "oge-dizilisine-gore-cumleler",
+                  "ad": "Öge Dizilişine Göre Cümleler",
+                  "sira": 2,
+                  "grup": "Cümle Türleri"
+                },
+                {
+                  "kod": "yapilarina-gore-cumleler",
+                  "ad": "Yapılarına Göre Cümleler",
+                  "sira": 3,
+                  "grup": "Cümle Türleri"
+                },
+                {
+                  "kod": "yuklem",
+                  "ad": "Yüklem",
+                  "sira": 4,
+                  "grup": "Cümlenin Ögeleri"
+                },
+                {
+                  "kod": "ozne",
+                  "ad": "Özne",
+                  "sira": 5,
+                  "grup": "Cümlenin Ögeleri"
+                },
+                {
+                  "kod": "nesne",
+                  "ad": "Nesne",
+                  "sira": 6,
+                  "grup": "Cümlenin Ögeleri"
+                },
+                {
+                  "kod": "dolayli-tumlec",
+                  "ad": "Dolaylı Tümleç",
+                  "sira": 7,
+                  "grup": "Cümlenin Ögeleri"
+                },
+                {
+                  "kod": "zarf-tumleci",
+                  "ad": "Zarf Tümleci",
+                  "sira": 8,
+                  "grup": "Cümlenin Ögeleri"
+                },
+                {
+                  "kod": "edat-tumleci",
+                  "ad": "Edat Tümleci",
+                  "sira": 9,
+                  "grup": "Cümlenin Ögeleri"
+                }
+              ]
+            },
+            {
+              "kod": "yazim-kurallari",
+              "ad": "Yazım Kuralları",
+              "sira": 8,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "buyuk-harflerin-kullanildigi-yerler",
+                  "ad": "Büyük Harflerin Kullanıldığı Yerler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "kisaltmalarin-yazimi",
+                  "ad": "Kısaltmaların Yazımı",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "sayilarin-yazimi",
+                  "ad": "Sayıların Yazımı",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "deyimlerin-ve-ikilemelerin-yazimi",
+                  "ad": "Deyimlerin ve İkilemelerin Yazımı",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "bitisik-yazilan-birlesik-kelimeler",
+                  "ad": "Bitişik Yazılan Birleşik Kelimeler",
+                  "sira": 5,
+                  "grup": "Birleşik Kelimelerin Yazımı"
+                },
+                {
+                  "kod": "ayri-yazilan-birlesik-kelimeler",
+                  "ad": "Ayrı Yazılan Birleşik Kelimeler",
+                  "sira": 6,
+                  "grup": "Birleşik Kelimelerin Yazımı"
+                },
+                {
+                  "kod": "yabanci-ozel-adlarin-yazimi",
+                  "ad": "Yabancı Özel Adların Yazımı",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "ses-olaylariyla-ilgili-yazim-kurallari",
+                  "ad": "Ses Olaylarıyla İlgili Yazım Kuralları",
+                  "sira": 8,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "noktalama-isaretleri",
+              "ad": "Noktalama İşaretleri",
+              "sira": 9,
+              "agirlik": 0.67,
+              "alt_konular": [
+                {
+                  "kod": "nokta",
+                  "ad": "Nokta ( . )",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "virgul",
+                  "ad": "Virgül ( , )",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "noktali-virgul",
+                  "ad": "Noktalı Virgül ( ; )",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "iki-nokta",
+                  "ad": "İki Nokta ( : )",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "uc-nokta",
+                  "ad": "Üç Nokta ( ... )",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "soru-isareti",
+                  "ad": "Soru İşareti ( ? )",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "unlem-isareti",
+                  "ad": "Ünlem İşareti ( ! )",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "kisa-cizgi",
+                  "ad": "Kısa Çizgi ( - )",
+                  "sira": 8,
+                  "grup": null
+                },
+                {
+                  "kod": "uzun-cizgi",
+                  "ad": "Uzun Çizgi ( – )",
+                  "sira": 9,
+                  "grup": null
+                },
+                {
+                  "kod": "tirnak-isareti",
+                  "ad": "Tırnak İşareti ( \" \" )",
+                  "sira": 10,
+                  "grup": null
+                },
+                {
+                  "kod": "parantez",
+                  "ad": "Parantez ( )",
+                  "sira": 11,
+                  "grup": null
+                },
+                {
+                  "kod": "kesme-isareti",
+                  "ad": "Kesme İşareti ( ' )",
+                  "sira": 12,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "anlatim-bozukluklari",
+              "ad": "Anlatım Bozuklukları",
+              "sira": 10,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "gereksiz-ek-ve-sozcuk-kullanimi",
+                  "ad": "Gereksiz Ek ve Sözcük Kullanımı",
+                  "sira": 1,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "celisen-sozcuklerin-bir-arada-kullanimi",
+                  "ad": "Çelişen Sözcüklerin Bir Arada Kullanımı",
+                  "sira": 2,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "yanlis-ek-ve-sozcuk-kullanimi",
+                  "ad": "Yanlış Ek ve Sözcük Kullanımı",
+                  "sira": 3,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "sozcugun-yanlis-yerde-kullanimi",
+                  "ad": "Sözcüğün Yanlış Yerde Kullanımı",
+                  "sira": 4,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "deyim-atasozu-yanlislari",
+                  "ad": "Deyim-Atasözü Yanlışları",
+                  "sira": 5,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "anlam-belirsizligi",
+                  "ad": "Anlam Belirsizliği",
+                  "sira": 6,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "mantik-hatalari",
+                  "ad": "Mantık Hataları",
+                  "sira": 7,
+                  "grup": "Anlama Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "fiil-ve-yuklem-yanlislari",
+                  "ad": "Fiil ve Yüklem Yanlışları",
+                  "sira": 8,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "ozne-yuklem-uyusmazligi",
+                  "ad": "Özne - Yüklem Uyuşmazlığı",
+                  "sira": 9,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "ozne-eksikligi",
+                  "ad": "Özne Eksikliği",
+                  "sira": 10,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "nesne-eksikligi",
+                  "ad": "Nesne Eksikliği",
+                  "sira": 11,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "dolayli-tumlec-eksikligi",
+                  "ad": "Dolaylı Tümleç Eksikliği",
+                  "sira": 12,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "zarf-ve-edat-tumleci-eksikligi",
+                  "ad": "Zarf ve Edat Tümleci Eksikliği",
+                  "sira": 13,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "tamlama-yanlislari",
+                  "ad": "Tamlama Yanlışları",
+                  "sira": 14,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                },
+                {
+                  "kod": "cati-uyusmazligi",
+                  "ad": "Çatı Uyuşmazlığı",
+                  "sira": 15,
+                  "grup": "Dil Bilgisine Dayalı Anlatım Bozuklukları"
+                }
+              ]
+            },
+            {
+              "kod": "sozel-mantik-ve-muhakeme",
+              "ad": "Sözel Mantık ve Muhakeme",
+              "sira": 11,
+              "agirlik": 4.0,
+              "alt_konular": [
+                {
+                  "kod": "siralama-ve-eslestirme",
+                  "ad": "Sıralama ve Eşleştirme",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "tablo-kurma",
+                  "ad": "Tablo Kurma",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "kan-bagi-ve-akrabalik",
+                  "ad": "Kan Bağı ve Akrabalık",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "dogruluk-yalancilik",
+                  "ad": "Doğruluk-Yalancılık",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "sekil-ve-sayi-oruntuleri",
+                  "ad": "Şekil ve Sayı Örüntüleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "mantiksal-cikarim",
+                  "ad": "Mantıksal Çıkarım",
+                  "sira": 6,
+                  "grup": null
+                }
+              ]
+            }
+          ],
+          "uyari": "'Sözel Mantık ve Muhakeme' ayrıntılı müfredat listesinde yoktu ama her yıl 4 soru çıkıyor; konu olarak eklendi, alt başlıkları taslaktır."
+        },
+        {
+          "kod": "matematik",
+          "ad": "Matematik",
+          "soru_sayisi": 26,
+          "konular": [
+            {
+              "kod": "temel-kavramlar",
+              "ad": "Temel Kavramlar",
+              "sira": 1,
+              "agirlik": 1.6,
+              "alt_konular": [
+                {
+                  "kod": "temel-kavramlar",
+                  "ad": "Temel Kavramlar",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "sayi-cozumleme",
+                  "ad": "Sayı Çözümleme",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "sayilar",
+              "ad": "Sayılar",
+              "sira": 2,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "sayi-kumeleri",
+                  "ad": "Sayı Kümeleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "dogal-sayilar",
+                  "ad": "Doğal Sayılar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "tam-sayilar",
+                  "ad": "Tam Sayılar",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "faktoriyel",
+                  "ad": "Faktöriyel",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "sayma-sistemleri",
+                  "ad": "Sayma Sistemleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "bolme",
+                  "ad": "Bölme",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "bolunebilme-kurallari",
+                  "ad": "Bölünebilme Kuralları",
+                  "sira": 7,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "ebob-ekok",
+              "ad": "EBOB - EKOK",
+              "sira": 3,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "ebob-ekok",
+                  "ad": "EBOB - EKOK",
+                  "sira": 1,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "asal-carpanlara-ayirma",
+              "ad": "Asal Çarpanlara Ayırma",
+              "sira": 4,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "asal-carpanlara-ayirma",
+                  "ad": "Asal Çarpanlara Ayırma",
+                  "sira": 1,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "denklemler",
+              "ad": "Denklemler",
+              "sira": 5,
+              "agirlik": 0.96,
+              "alt_konular": [
+                {
+                  "kod": "denklem-cozme",
+                  "ad": "Denklem Çözme",
+                  "sira": 1,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "rasyonel-sayilar",
+              "ad": "Rasyonel Sayılar",
+              "sira": 6,
+              "agirlik": 2.89,
+              "alt_konular": [
+                {
+                  "kod": "kesir-ve-kesir-turleri",
+                  "ad": "Kesir ve Kesir Türleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "rasyonel-sayilarda-dort-islem",
+                  "ad": "Rasyonel Sayılarda Dört İşlem",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "ondalik-sayilar",
+                  "ad": "Ondalık Sayılar",
+                  "sira": 3,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "esitsizlik-mutlak-deger",
+              "ad": "Eşitsizlik - Mutlak Değer",
+              "sira": 7,
+              "agirlik": 1.92,
+              "alt_konular": [
+                {
+                  "kod": "basit-esitsizlikler",
+                  "ad": "Basit Eşitsizlikler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "mutlak-deger",
+                  "ad": "Mutlak Değer",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "uslu-sayilar",
+              "ad": "Üslü Sayılar",
+              "sira": 8,
+              "agirlik": 1.28,
+              "alt_konular": [
+                {
+                  "kod": "uslu-sayilar",
+                  "ad": "Üslü Sayılar",
+                  "sira": 1,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "koklu-sayilar",
+              "ad": "Köklü Sayılar",
+              "sira": 9,
+              "agirlik": 1.28,
+              "alt_konular": [
+                {
+                  "kod": "koklu-sayilar",
+                  "ad": "Köklü Sayılar",
+                  "sira": 1,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "carpanlara-ayirma",
+              "ad": "Çarpanlara Ayırma",
+              "sira": 10,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "carpanlara-ayirma",
+                  "ad": "Çarpanlara Ayırma",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "ozdeslikler",
+                  "ad": "Özdeşlikler",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "oran-oranti",
+              "ad": "Oran - Orantı",
+              "sira": 11,
+              "agirlik": 0.96,
+              "alt_konular": [
+                {
+                  "kod": "oran-oranti",
+                  "ad": "Oran - Orantı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "dogru-ve-ters-oranti",
+                  "ad": "Doğru ve Ters Orantı",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "problemler",
+              "ad": "Problemler",
+              "sira": 12,
+              "agirlik": 7.7,
+              "alt_konular": [
+                {
+                  "kod": "denklem-kurma-sayi-problemleri",
+                  "ad": "Denklem Kurma (Sayı) Problemleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "yas-problemleri",
+                  "ad": "Yaş Problemleri",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "yuzde-problemleri",
+                  "ad": "Yüzde Problemleri",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "faiz-problemleri",
+                  "ad": "Faiz Problemleri",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "kar-zarar-problemleri",
+                  "ad": "Kâr - Zarar Problemleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "karisim-problemleri",
+                  "ad": "Karışım Problemleri",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "isci-problemleri",
+                  "ad": "İşçi Problemleri",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "havuz-problemleri",
+                  "ad": "Havuz Problemleri",
+                  "sira": 8,
+                  "grup": null
+                },
+                {
+                  "kod": "hareket-problemleri",
+                  "ad": "Hareket Problemleri",
+                  "sira": 9,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "kumeler",
+              "ad": "Kümeler",
+              "sira": 13,
+              "agirlik": 0.64,
+              "alt_konular": [
+                {
+                  "kod": "kumeler",
+                  "ad": "Kümeler",
+                  "sira": 1,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "baginti-ve-fonksiyon",
+              "ad": "Bağıntı ve Fonksiyon",
+              "sira": 14,
+              "agirlik": 0.96,
+              "alt_konular": [
+                {
+                  "kod": "baginti",
+                  "ad": "Bağıntı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "fonksiyonlar",
+                  "ad": "Fonksiyonlar",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "islem-moduler-aritmetik",
+              "ad": "İşlem - Modüler Aritmetik",
+              "sira": 15,
+              "agirlik": 0.64,
+              "alt_konular": [
+                {
+                  "kod": "islem",
+                  "ad": "İşlem",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "moduler-aritmetik",
+                  "ad": "Modüler Aritmetik",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "permutasyon-kombinasyon-olasilik",
+              "ad": "Permütasyon - Kombinasyon - Olasılık",
+              "sira": 16,
+              "agirlik": 1.28,
+              "alt_konular": [
+                {
+                  "kod": "permutasyon",
+                  "ad": "Permütasyon",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "kombinasyon",
+                  "ad": "Kombinasyon",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "olasilik",
+                  "ad": "Olasılık",
+                  "sira": 3,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "tablo-ve-grafikler",
+              "ad": "Tablo ve Grafikler",
+              "sira": 17,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "tablo-ve-yorumlama",
+                  "ad": "Tablo ve Yorumlama",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "grafik-ve-yorumlama",
+                  "ad": "Grafik ve Yorumlama",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "sayisal-mantik",
+              "ad": "Sayısal Mantık",
+              "sira": 18,
+              "agirlik": 3.85,
+              "alt_konular": [
+                {
+                  "kod": "sayi-ve-sekil-oruntuleri",
+                  "ad": "Sayı ve Şekil Örüntüleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "sayisal-muhakeme",
+                  "ad": "Sayısal Muhakeme",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            }
+          ],
+          "uyari": "'Bağıntı ve Fonksiyon' ayrıntılı müfredat listesinde yoktu ama çıkmış sınav tablolarında her yıl var; konu olarak eklendi."
+        },
+        {
+          "kod": "geometri",
+          "ad": "Geometri",
+          "soru_sayisi": 4,
+          "konular": [
+            {
+              "kod": "geometrik-kavramlar-ve-acilar",
+              "ad": "Geometrik Kavramlar ve Açılar",
+              "sira": 1,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "geometrik-kavramlar",
+                  "ad": "Geometrik Kavramlar",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "dogruda-acilar",
+                  "ad": "Doğruda Açılar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "ucgende-acilar",
+                  "ad": "Üçgende Açılar",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "dik-ucgen",
+                  "ad": "Dik Üçgen",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "ucgende-aciortay-teoremleri",
+                  "ad": "Üçgende Açıortay Teoremleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "ucgende-kenarortay-teoremleri",
+                  "ad": "Üçgende Kenarortay Teoremleri",
+                  "sira": 6,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "ozel-ucgenler",
+              "ad": "Özel Üçgenler",
+              "sira": 2,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "ozel-ucgenler",
+                  "ad": "Özel Üçgenler",
+                  "sira": 1,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "ucgende-alan",
+              "ad": "Üçgende Alan",
+              "sira": 3,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "ucgende-alan",
+                  "ad": "Üçgende Alan",
+                  "sira": 1,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "ucgende-benzerlik",
+              "ad": "Üçgende Benzerlik",
+              "sira": 4,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "ucgende-benzerlik",
+                  "ad": "Üçgende Benzerlik",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "ucgende-aci-kenar-bagintilari",
+                  "ad": "Üçgende Açı-Kenar Bağıntıları",
+                  "sira": 2,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "cokgenler-ve-dortgenler",
+              "ad": "Çokgenler ve Dörtgenler",
+              "sira": 5,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "cokgenler",
+                  "ad": "Çokgenler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "dortgenler",
+                  "ad": "Dörtgenler",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "paralelkenar-ve-eskenar-dortgen",
+                  "ad": "Paralelkenar ve Eşkenar Dörtgen",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "dikdortgen-ve-kare",
+                  "ad": "Dikdörtgen ve Kare",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "yamuk-ve-deltoid",
+                  "ad": "Yamuk ve Deltoid",
+                  "sira": 5,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "cember-ve-daire",
+              "ad": "Çember ve Daire",
+              "sira": 6,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "cemberde-aci",
+                  "ad": "Çemberde Açı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "cemberde-uzunluk",
+                  "ad": "Çemberde Uzunluk",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "dairede-alan",
+                  "ad": "Dairede Alan",
+                  "sira": 3,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "analitik-geometri",
+              "ad": "Analitik Geometri",
+              "sira": 7,
+              "agirlik": 0.67,
+              "alt_konular": [
+                {
+                  "kod": "noktanin-analitik-incelenmesi",
+                  "ad": "Noktanın Analitik İncelenmesi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "analitik-duzlem",
+                  "ad": "Analitik Düzlem",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "dogrunun-analitik-incelenmesi",
+                  "ad": "Doğrunun Analitik İncelenmesi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "dogrunun-grafiginin-cizimi",
+                  "ad": "Doğrunun Grafiğinin Çizimi",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "dogrunun-denklemleri",
+                  "ad": "Doğrunun Denklemleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "simetriler",
+                  "ad": "Simetriler",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "esitsizlikler",
+                  "ad": "Eşitsizlikler",
+                  "sira": 7,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "kati-cisimler",
+              "ad": "Katı Cisimler",
+              "sira": 8,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "dikdortgenler-prizmasi",
+                  "ad": "Dikdörtgenler Prizması",
+                  "sira": 1,
+                  "grup": "Prizmalar"
+                },
+                {
+                  "kod": "kup",
+                  "ad": "Küp",
+                  "sira": 2,
+                  "grup": "Prizmalar"
+                },
+                {
+                  "kod": "donel-silindir",
+                  "ad": "Dönel Silindir",
+                  "sira": 3,
+                  "grup": "Silindir"
+                },
+                {
+                  "kod": "duzgun-piramit",
+                  "ad": "Düzgün Piramit",
+                  "sira": 4,
+                  "grup": "Piramitler"
+                },
+                {
+                  "kod": "kesik-piramit",
+                  "ad": "Kesik Piramit",
+                  "sira": 5,
+                  "grup": "Piramitler"
+                },
+                {
+                  "kod": "koni",
+                  "ad": "Koni",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "kure",
+                  "ad": "Küre",
+                  "sira": 7,
+                  "grup": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kod": "genel-kultur",
+      "ad": "Genel Kültür Testi",
+      "soru_sayisi": 60,
+      "sira": 2,
+      "dersler": [
+        {
+          "kod": "tarih",
+          "ad": "Tarih",
+          "soru_sayisi": 27,
+          "konular": [
+            {
+              "kod": "islamiyet-oncesi-turk-tarihi",
+              "ad": "İslamiyet Öncesi Türk Tarihi",
+              "sira": 1,
+              "agirlik": 1.92,
+              "alt_konular": [
+                {
+                  "kod": "ilk-turk-devletleri",
+                  "ad": "İlk Türk Devletleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "islamiyet-oncesi-turklerde-kultur-ve-uygarlik",
+                  "ad": "İslamiyet Öncesi Türklerde Kültür ve Uygarlık",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "ilk-turk-islam-devletleri-ve-beylikleri",
+              "ad": "İlk Türk-İslam Devletleri ve Beylikleri",
+              "sira": 2,
+              "agirlik": 0.96,
+              "alt_konular": [
+                {
+                  "kod": "turklerin-islamiyeti-kabulu",
+                  "ad": "Türklerin İslamiyeti Kabulü",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "ilk-turk-islam-devletleri",
+                  "ad": "İlk Türk-İslam Devletleri",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "anadolu-da-kurulan-turk-beylikleri",
+                  "ad": "Anadolu'da Kurulan Türk Beylikleri",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "turk-islam-devletlerinde-kultur-ve-uygarlik",
+                  "ad": "Türk-İslam Devletlerinde Kültür ve Uygarlık",
+                  "sira": 4,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "osmanli-devleti-kurulus-ve-yukselme-donemleri",
+              "ad": "Osmanlı Devleti Kuruluş ve Yükselme Dönemleri",
+              "sira": 3,
+              "agirlik": 0.72,
+              "alt_konular": [
+                {
+                  "kod": "kurulus-donemi",
+                  "ad": "Kuruluş Dönemi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "yukselme-donemi",
+                  "ad": "Yükselme Dönemi",
+                  "sira": 2,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "osmanli-devleti-nde-kultur-ve-uygarlik",
+              "ad": "Osmanlı Devleti'nde Kültür ve Uygarlık",
+              "sira": 4,
+              "agirlik": 4.82,
+              "alt_konular": [
+                {
+                  "kod": "devlet-yonetimi",
+                  "ad": "Devlet Yönetimi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "ordu-teskilati",
+                  "ad": "Ordu Teşkilatı",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "toprak-sistemi",
+                  "ad": "Toprak Sistemi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "ekonomi-ve-ticaret",
+                  "ad": "Ekonomi ve Ticaret",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "egitim-bilim-ve-sanat",
+                  "ad": "Eğitim, Bilim ve Sanat",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "toplum-yapisi",
+                  "ad": "Toplum Yapısı",
+                  "sira": 6,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "xvii-yuzyilda-osmanli-devleti-duraklama",
+              "ad": "XVII. Yüzyılda Osmanlı Devleti (Duraklama)",
+              "sira": 5,
+              "agirlik": 0.72,
+              "alt_konular": [
+                {
+                  "kod": "duraklama-donemi-siyasi-olaylari",
+                  "ad": "Duraklama Dönemi Siyasi Olayları",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "duraklama-donemi-islahatlari",
+                  "ad": "Duraklama Dönemi Islahatları",
+                  "sira": 2,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "xviii-yuzyilda-osmanli-devleti-gerileme",
+              "ad": "XVIII. Yüzyılda Osmanlı Devleti (Gerileme)",
+              "sira": 6,
+              "agirlik": 0.72,
+              "alt_konular": [
+                {
+                  "kod": "gerileme-donemi-siyasi-olaylari",
+                  "ad": "Gerileme Dönemi Siyasi Olayları",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "lale-devri-ve-islahatlar",
+                  "ad": "Lale Devri ve Islahatlar",
+                  "sira": 2,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "xix-yuzyilda-osmanli-devleti-dagilma",
+              "ad": "XIX. Yüzyılda Osmanlı Devleti (Dağılma)",
+              "sira": 7,
+              "agirlik": 0.72,
+              "alt_konular": [
+                {
+                  "kod": "dagilma-donemi-siyasi-olaylari",
+                  "ad": "Dağılma Dönemi Siyasi Olayları",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "tanzimat-ve-islahat-fermanlari",
+                  "ad": "Tanzimat ve Islahat Fermanları",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "i-ve-ii-mesrutiyet",
+                  "ad": "I. ve II. Meşrutiyet",
+                  "sira": 3,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "xx-yuzyilda-osmanli-devleti",
+              "ad": "XX. Yüzyılda Osmanlı Devleti",
+              "sira": 8,
+              "agirlik": 3.86,
+              "alt_konular": [
+                {
+                  "kod": "trablusgarp-ve-balkan-savaslari",
+                  "ad": "Trablusgarp ve Balkan Savaşları",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "i-dunya-savasi-ve-cepheler",
+                  "ad": "I. Dünya Savaşı ve Cepheler",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "mondros-ateskes-antlasmasi",
+                  "ad": "Mondros Ateşkes Antlaşması",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "isgaller-ve-cemiyetler",
+                  "ad": "İşgaller ve Cemiyetler",
+                  "sira": 4,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "kurtulus-savasi-hazirlik-donemi",
+              "ad": "Kurtuluş Savaşı Hazırlık Dönemi",
+              "sira": 9,
+              "agirlik": 0.64,
+              "alt_konular": [
+                {
+                  "kod": "kongreler",
+                  "ad": "Kongreler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "misak-i-milli",
+                  "ad": "Misak-ı Millî",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "tbmm-nin-acilisi",
+                  "ad": "TBMM'nin Açılışı",
+                  "sira": 3,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "i-tbmm-donemi",
+              "ad": "I. TBMM Dönemi",
+              "sira": 10,
+              "agirlik": 0.64,
+              "alt_konular": [
+                {
+                  "kod": "i-tbmm-nin-ozellikleri",
+                  "ad": "I. TBMM'nin Özellikleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "cikarilan-kanunlar",
+                  "ad": "Çıkarılan Kanunlar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "ayaklanmalar",
+                  "ad": "Ayaklanmalar",
+                  "sira": 3,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "kurtulus-savasi-muharebeler-donemi",
+              "ad": "Kurtuluş Savaşı Muharebeler Dönemi",
+              "sira": 11,
+              "agirlik": 0.64,
+              "alt_konular": [
+                {
+                  "kod": "dogu-cephesi",
+                  "ad": "Doğu Cephesi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "guney-cephesi",
+                  "ad": "Güney Cephesi",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "bati-cephesi",
+                  "ad": "Batı Cephesi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "mudanya-ve-lozan",
+                  "ad": "Mudanya ve Lozan",
+                  "sira": 4,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "ataturk-inkilaplari",
+              "ad": "Atatürk İnkılapları",
+              "sira": 12,
+              "agirlik": 4.82,
+              "alt_konular": [
+                {
+                  "kod": "siyasi-alanda-inkilaplar",
+                  "ad": "Siyasi Alanda İnkılaplar",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "hukuk-alaninda-inkilaplar",
+                  "ad": "Hukuk Alanında İnkılaplar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "egitim-ve-kultur-alaninda-inkilaplar",
+                  "ad": "Eğitim ve Kültür Alanında İnkılaplar",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "toplumsal-alanda-inkilaplar",
+                  "ad": "Toplumsal Alanda İnkılaplar",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "ekonomi-alaninda-inkilaplar",
+                  "ad": "Ekonomi Alanında İnkılaplar",
+                  "sira": 5,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "ataturk-ilkeleri",
+              "ad": "Atatürk İlkeleri",
+              "sira": 13,
+              "agirlik": 1.93,
+              "alt_konular": [
+                {
+                  "kod": "temel-ilkeler",
+                  "ad": "Temel İlkeler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "butunleyici-ilkeler",
+                  "ad": "Bütünleyici İlkeler",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "partiler-ve-partilesme-donemi-ic-politika",
+              "ad": "Partiler ve Partileşme Dönemi (İç Politika)",
+              "sira": 14,
+              "agirlik": 0.96,
+              "alt_konular": [
+                {
+                  "kod": "cok-partili-hayata-gecis-denemeleri",
+                  "ad": "Çok Partili Hayata Geçiş Denemeleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "ic-politikadaki-gelismeler",
+                  "ad": "İç Politikadaki Gelişmeler",
+                  "sira": 2,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "ataturk-donemi-turk-dis-politikasi",
+              "ad": "Atatürk Dönemi Türk Dış Politikası",
+              "sira": 15,
+              "agirlik": 0.96,
+              "alt_konular": [
+                {
+                  "kod": "1923-1930-donemi",
+                  "ad": "1923-1930 Dönemi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "1930-1938-donemi",
+                  "ad": "1930-1938 Dönemi",
+                  "sira": 2,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "ataturk-sonrasi-donem",
+              "ad": "Atatürk Sonrası Dönem",
+              "sira": 16,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "inonu-donemi",
+                  "ad": "İnönü Dönemi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "demokrat-parti-donemi",
+                  "ad": "Demokrat Parti Dönemi",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "ataturk-un-hayati-ve-kisiligi",
+              "ad": "Atatürk'ün Hayatı ve Kişiliği",
+              "sira": 17,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "ataturk-un-hayati",
+                  "ad": "Atatürk'ün Hayatı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "ataturk-un-kisilik-ozellikleri",
+                  "ad": "Atatürk'ün Kişilik Özellikleri",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "cagdas-turk-ve-dunya-tarihi",
+              "ad": "Çağdaş Türk ve Dünya Tarihi",
+              "sira": 18,
+              "agirlik": 1.93,
+              "alt_konular": [
+                {
+                  "kod": "ii-dunya-savasi",
+                  "ad": "II. Dünya Savaşı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "soguk-savas-donemi",
+                  "ad": "Soğuk Savaş Dönemi",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "yumusama-donemi",
+                  "ad": "Yumuşama Dönemi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "kuresellesen-dunya",
+                  "ad": "Küreselleşen Dünya",
+                  "sira": 4,
+                  "grup": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kod": "cografya",
+          "ad": "Coğrafya",
+          "soru_sayisi": 18,
+          "konular": [
+            {
+              "kod": "turkiye-nin-cografi-konumu",
+              "ad": "Türkiye'nin Coğrafi Konumu",
+              "sira": 1,
+              "agirlik": 0.98,
+              "alt_konular": [
+                {
+                  "kod": "matematik-mutlak-konum",
+                  "ad": "Matematik (Mutlak) Konum",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-nin-matematik-konumu-ve-sonuclari",
+                  "ad": "Türkiye'nin Matematik Konumu ve Sonuçları",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-nin-ozel-goreceli-konumu-ve-sonuclari",
+                  "ad": "Türkiye'nin Özel (Göreceli) Konumu ve Sonuçları",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-nin-jeopolitigi",
+                  "ad": "Türkiye'nin Jeopolitiği",
+                  "sira": 4,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-nin-yer-sekilleri-ve-ozellikleri",
+              "ad": "Türkiye'nin Yer Şekilleri ve Özellikleri",
+              "sira": 2,
+              "agirlik": 5.89,
+              "alt_konular": [
+                {
+                  "kod": "yer-sekillerinin-genel-ozellikleri",
+                  "ad": "Yer Şekillerinin Genel Özellikleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "fiziki-haritalar",
+                  "ad": "Fiziki Haritalar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-nin-jeolojik-gecmisi",
+                  "ad": "Türkiye'nin Jeolojik Geçmişi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "platolar-ve-ovalar",
+                  "ad": "Platolar ve Ovalar",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "dis-guclerin-olusturdugu-yer-sekilleri",
+                  "ad": "Dış Güçlerin Oluşturduğu Yer Şekilleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "kiyi-tipleri",
+                  "ad": "Kıyı Tipleri",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "toprak-olusumu-ve-tipleri",
+                  "ad": "Toprak Oluşumu ve Tipleri",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-nin-su-varligi",
+                  "ad": "Türkiye'nin Su Varlığı",
+                  "sira": 8,
+                  "grup": null
+                },
+                {
+                  "kod": "dogal-afetler",
+                  "ad": "Doğal Afetler",
+                  "sira": 9,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-nin-iklimi-ve-bitki-ortusu",
+              "ad": "Türkiye'nin İklimi ve Bitki Örtüsü",
+              "sira": 3,
+              "agirlik": 1.31,
+              "alt_konular": [
+                {
+                  "kod": "turkiye-nin-iklimi",
+                  "ad": "Türkiye'nin İklimi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "sicaklik",
+                  "ad": "Sıcaklık",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "nemlilik-ve-yagis",
+                  "ad": "Nemlilik ve Yağış",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "iklim-tipleri",
+                  "ad": "İklim Tipleri",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "bitki-ortusu",
+                  "ad": "Bitki Örtüsü",
+                  "sira": 5,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-de-nufus-ve-yerlesme",
+              "ad": "Türkiye'de Nüfus ve Yerleşme",
+              "sira": 4,
+              "agirlik": 1.96,
+              "alt_konular": [
+                {
+                  "kod": "nufus-ozellikleri",
+                  "ad": "Nüfus Özellikleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "nufusun-dagilisi-ve-yogunlugu",
+                  "ad": "Nüfusun Dağılışı ve Yoğunluğu",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "nufus-sayimlari",
+                  "ad": "Nüfus Sayımları",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "nufus-politikalari",
+                  "ad": "Nüfus Politikaları",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "nufus-projeksiyonlari",
+                  "ad": "Nüfus Projeksiyonları",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-gocler",
+                  "ad": "Türkiye'de Göçler",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "yerlesme",
+                  "ad": "Yerleşme",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "mesken-tipleri",
+                  "ad": "Mesken Tipleri",
+                  "sira": 8,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-de-tarim-hayvancilik-ve-ormancilik",
+              "ad": "Türkiye'de Tarım, Hayvancılık ve Ormancılık",
+              "sira": 5,
+              "agirlik": 1.97,
+              "alt_konular": [
+                {
+                  "kod": "anadolu-uygarliklari",
+                  "ad": "Anadolu Uygarlıkları",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "arazi-kullanimi",
+                  "ad": "Arazi Kullanımı",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "ekonominin-sektorel-dagilimi",
+                  "ad": "Ekonominin Sektörel Dağılımı",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "ekonomiyi-etkileyen-faktorler",
+                  "ad": "Ekonomiyi Etkileyen Faktörler",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-tarim",
+                  "ad": "Türkiye'de Tarım",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-hayvancilik",
+                  "ad": "Türkiye'de Hayvancılık",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-ormancilik",
+                  "ad": "Türkiye'de Ormancılık",
+                  "sira": 7,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-de-madenler-enerji-kaynaklari-ve-sanayi",
+              "ad": "Türkiye'de Madenler, Enerji Kaynakları ve Sanayi",
+              "sira": 6,
+              "agirlik": 3.27,
+              "alt_konular": [
+                {
+                  "kod": "turkiye-de-madenler",
+                  "ad": "Türkiye'de Madenler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-enerji-kaynaklari",
+                  "ad": "Türkiye'de Enerji Kaynakları",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-sanayi",
+                  "ad": "Türkiye'de Sanayi",
+                  "sira": 3,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-de-ulasim-ticaret-ve-turizm",
+              "ad": "Türkiye'de Ulaşım, Ticaret ve Turizm",
+              "sira": 7,
+              "agirlik": 2.62,
+              "alt_konular": [
+                {
+                  "kod": "turkiye-de-ulasim",
+                  "ad": "Türkiye'de Ulaşım",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-ticaret",
+                  "ad": "Türkiye'de Ticaret",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-de-turizm",
+                  "ad": "Türkiye'de Turizm",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "milli-parklar",
+                  "ad": "Millî Parklar",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "sehirler-ve-ozellikleri",
+                  "ad": "Şehirler ve Özellikleri",
+                  "sira": 5,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "turkiye-nin-cografi-bolgeleri",
+              "ad": "Türkiye'nin Coğrafi Bölgeleri",
+              "sira": 8,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "bolge-siniflandirmasi",
+                  "ad": "Bölge Sınıflandırması",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "bolgesel-kalkinma-projeleri",
+                  "ad": "Bölgesel Kalkınma Projeleri",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "karadeniz-bolgesi",
+                  "ad": "Karadeniz Bölgesi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "marmara-bolgesi",
+                  "ad": "Marmara Bölgesi",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "ege-bolgesi",
+                  "ad": "Ege Bölgesi",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "akdeniz-bolgesi",
+                  "ad": "Akdeniz Bölgesi",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "ic-anadolu-bolgesi",
+                  "ad": "İç Anadolu Bölgesi",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "dogu-anadolu-bolgesi",
+                  "ad": "Doğu Anadolu Bölgesi",
+                  "sira": 8,
+                  "grup": null
+                },
+                {
+                  "kod": "guneydogu-anadolu-bolgesi",
+                  "ad": "Güneydoğu Anadolu Bölgesi",
+                  "sira": 9,
+                  "grup": null
+                },
+                {
+                  "kod": "bolgelerin-karsilastirilmasi",
+                  "ad": "Bölgelerin Karşılaştırılması",
+                  "sira": 10,
+                  "grup": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kod": "vatandaslik",
+          "ad": "Vatandaşlık",
+          "soru_sayisi": 9,
+          "konular": [
+            {
+              "kod": "hukukun-temel-kavramlari",
+              "ad": "Hukukun Temel Kavramları",
+              "sira": 1,
+              "agirlik": 2.0,
+              "alt_konular": [
+                {
+                  "kod": "hukukun-tanimi",
+                  "ad": "Hukukun Tanımı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "hukuk-kaynaklariyla-ilgili-kavramlar",
+                  "ad": "Hukuk Kaynaklarıyla İlgili Kavramlar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "yazisiz-kaynaklar-orf-ve-adet-hukuku",
+                  "ad": "Yazısız Kaynaklar (Örf ve Âdet Hukuku)",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "yardimci-kaynaklar",
+                  "ad": "Yardımcı Kaynaklar",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "hukuk-kurallarinin-yaptirimlari",
+                  "ad": "Hukuk Kurallarının Yaptırımları",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "kamu-hukuku-dallari",
+                  "ad": "Kamu Hukuku Dalları",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "ceza-ve-ehliyet",
+                  "ad": "Ceza ve Ehliyet",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "ozel-hukuk-dallari",
+                  "ad": "Özel Hukuk Dalları",
+                  "sira": 8,
+                  "grup": null
+                },
+                {
+                  "kod": "hakkin-tanimi-ve-turleri",
+                  "ad": "Hakkın Tanımı ve Türleri",
+                  "sira": 9,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "devlet-bicimleri-ve-hukumet-sistemleri",
+              "ad": "Devlet Biçimleri ve Hükümet Sistemleri",
+              "sira": 2,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "devlet-kavrami",
+                  "ad": "Devlet Kavramı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "devletin-kurucu-unsurlari",
+                  "ad": "Devletin Kurucu Unsurları",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "devlet-kavramina-iliskin-ayrimlar",
+                  "ad": "Devlet Kavramına İlişkin Ayrımlar",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "yapilarina-gore-devlet-sekilleri",
+                  "ad": "Yapılarına Göre Devlet Şekilleri",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "egemenligin-kaynagina-gore-devlet-sekilleri",
+                  "ad": "Egemenliğin Kaynağına Göre Devlet Şekilleri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "hukumet-sistemleri",
+                  "ad": "Hükümet Sistemleri",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "demokrasi-ve-kuvvetler-ayriligi",
+                  "ad": "Demokrasi ve Kuvvetler Ayrılığı",
+                  "sira": 7,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "anayasa-hukukuna-giris-ve-turk-anayasa-tarihi",
+              "ad": "Anayasa Hukukuna Giriş ve Türk Anayasa Tarihi",
+              "sira": 3,
+              "agirlik": 1.33,
+              "alt_konular": [
+                {
+                  "kod": "anayasa",
+                  "ad": "Anayasa",
+                  "sira": 1,
+                  "grup": "Anayasa Kavramı"
+                },
+                {
+                  "kod": "anayasa-kavramina-iliskin-ayrimlar",
+                  "ad": "Anayasa Kavramına İlişkin Ayrımlar",
+                  "sira": 2,
+                  "grup": "Anayasa Kavramı"
+                },
+                {
+                  "kod": "yazili-ve-yazisiz-anayasa-ayrimi",
+                  "ad": "Yazılı ve Yazısız Anayasa Ayrımı",
+                  "sira": 3,
+                  "grup": "Anayasa Kavramı"
+                },
+                {
+                  "kod": "kanun-i-esasi-1876",
+                  "ad": "Kanun-ı Esasî (1876)",
+                  "sira": 4,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1909-degisiklikleri-ii-mesrutiyet",
+                  "ad": "1909 Değişiklikleri (II. Meşrutiyet)",
+                  "sira": 5,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1921-teskilat-i-esasiye-kanunu",
+                  "ad": "1921 Teşkilât-ı Esasiye Kanunu",
+                  "sira": 6,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1923-degisiklikleri",
+                  "ad": "1923 Değişiklikleri",
+                  "sira": 7,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1924-anayasasi",
+                  "ad": "1924 Anayasası",
+                  "sira": 8,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1961-anayasasi",
+                  "ad": "1961 Anayasası",
+                  "sira": 9,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1971-1973-anayasa-degisiklikleri",
+                  "ad": "1971-1973 Anayasa Değişiklikleri",
+                  "sira": 10,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1982-anayasasi",
+                  "ad": "1982 Anayasası",
+                  "sira": 11,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "1982-anayasasi-nin-temel-ozellikleri",
+                  "ad": "1982 Anayasası'nın Temel Özellikleri",
+                  "sira": 12,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "2017-anayasa-degisiklikleri",
+                  "ad": "2017 Anayasa Değişiklikleri",
+                  "sira": 13,
+                  "grup": "Türk Anayasa Tarihi"
+                },
+                {
+                  "kod": "turk-tarihindeki-referandumlar",
+                  "ad": "Türk Tarihindeki Referandumlar",
+                  "sira": 14,
+                  "grup": "Türk Anayasa Tarihi"
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "1982-anayasasi-nin-temel-ilkeleri",
+              "ad": "1982 Anayasası'nın Temel İlkeleri",
+              "sira": 4,
+              "agirlik": 1.0,
+              "alt_konular": [
+                {
+                  "kod": "cumhuriyetin-nitelikleri",
+                  "ad": "Cumhuriyetin Nitelikleri",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "degistirilemez-hukumler",
+                  "ad": "Değiştirilemez Hükümler",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "baslangic-ilkeleri",
+                  "ad": "Başlangıç İlkeleri",
+                  "sira": 3,
+                  "grup": null
+                }
+              ],
+              "agirlik_notu": "Tablo satırı bu konudan geniş kapsamlı; ağırlık eşit paylaştırıldı."
+            },
+            {
+              "kod": "yasama",
+              "ad": "Yasama",
+              "sira": 5,
+              "agirlik": 0.67,
+              "alt_konular": [
+                {
+                  "kod": "yasama-organi",
+                  "ad": "Yasama Organı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "yasama-islemleri",
+                  "ad": "Yasama İşlemleri",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "tbmm-ic-yapi-ve-calisma-duzeni",
+                  "ad": "TBMM İç Yapı ve Çalışma Düzeni",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "toplanti-ve-karar-yeter-sayisi",
+                  "ad": "Toplantı ve Karar Yeter Sayısı",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "tbmm-gorev-ve-yetkileri",
+                  "ad": "TBMM Görev ve Yetkileri",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "tbmm-bilgi-edinme-ve-denetim-yollari",
+                  "ad": "TBMM Bilgi Edinme ve Denetim Yolları",
+                  "sira": 6,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "yurutme",
+              "ad": "Yürütme",
+              "sira": 6,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "yurutme-organi",
+                  "ad": "Yürütme Organı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "kanun-hukmunde-kararnameler",
+                  "ad": "Kanun Hükmünde Kararnameler",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "cumhurbaskanligi-kararnamesi",
+                  "ad": "Cumhurbaşkanlığı Kararnamesi",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "yonetmelik",
+                  "ad": "Yönetmelik",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "cumhurbaskaninin-gorev-ve-yetkileri",
+                  "ad": "Cumhurbaşkanının Görev ve Yetkileri",
+                  "sira": 5,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "yargi",
+              "ad": "Yargı",
+              "sira": 7,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "yargi-organi",
+                  "ad": "Yargı Organı",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "hakimler-ve-savcilar-kurulu",
+                  "ad": "Hâkimler ve Savcılar Kurulu",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "yuksek-mahkemeler",
+                  "ad": "Yüksek Mahkemeler",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "anayasa-mahkemesi",
+                  "ad": "Anayasa Mahkemesi",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "yargitay",
+                  "ad": "Yargıtay",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "danistay",
+                  "ad": "Danıştay",
+                  "sira": 6,
+                  "grup": null
+                },
+                {
+                  "kod": "uyusmazlik-mahkemesi",
+                  "ad": "Uyuşmazlık Mahkemesi",
+                  "sira": 7,
+                  "grup": null
+                },
+                {
+                  "kod": "sayistay",
+                  "ad": "Sayıştay",
+                  "sira": 8,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "temel-hak-ve-hurriyetler",
+              "ad": "Temel Hak ve Hürriyetler",
+              "sira": 8,
+              "agirlik": 0.33,
+              "alt_konular": [
+                {
+                  "kod": "temel-hak-ve-hurriyetler",
+                  "ad": "Temel Hak ve Hürriyetler",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "temel-haklarin-turleri",
+                  "ad": "Temel Hakların Türleri",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "temel-haklarin-sinirlandirilmasi",
+                  "ad": "Temel Hakların Sınırlandırılması",
+                  "sira": 3,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "idare-hukuku",
+              "ad": "İdare Hukuku",
+              "sira": 9,
+              "agirlik": 2.0,
+              "alt_konular": [
+                {
+                  "kod": "idare-kamu-yonetimi",
+                  "ad": "İdare (Kamu Yönetimi)",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "merkezi-idare",
+                  "ad": "Merkezî İdare",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "yerel-yonetim-organlari",
+                  "ad": "Yerel Yönetim Organları",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "kamu-kuruluslari",
+                  "ad": "Kamu Kuruluşları",
+                  "sira": 4,
+                  "grup": null
+                }
+              ]
+            },
+            {
+              "kod": "uluslararasi-kuruluslar",
+              "ad": "Uluslararası Kuruluşlar",
+              "sira": 10,
+              "agirlik": 0.0,
+              "alt_konular": [
+                {
+                  "kod": "uluslararasi-orgut-ve-kuruluslar",
+                  "ad": "Uluslararası Örgüt ve Kuruluşlar",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-nin-uyesi-oldugu-kuruluslar",
+                  "ad": "Türkiye'nin Üyesi Olduğu Kuruluşlar",
+                  "sira": 2,
+                  "grup": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kod": "guncel-bilgiler",
+          "ad": "Güncel Bilgiler",
+          "soru_sayisi": 6,
+          "konular": [
+            {
+              "kod": "guncel-bilgiler",
+              "ad": "Güncel Bilgiler",
+              "sira": 1,
+              "agirlik": 6.0,
+              "alt_konular": [
+                {
+                  "kod": "turkiye-ve-dunya-gundemi",
+                  "ad": "Türkiye ve Dünya Gündemi",
+                  "sira": 1,
+                  "grup": null
+                },
+                {
+                  "kod": "uluslararasi-organizasyonlar",
+                  "ad": "Uluslararası Organizasyonlar",
+                  "sira": 2,
+                  "grup": null
+                },
+                {
+                  "kod": "kulturel-ve-bilimsel-gelismeler",
+                  "ad": "Kültürel ve Bilimsel Gelişmeler",
+                  "sira": 3,
+                  "grup": null
+                },
+                {
+                  "kod": "onemli-devlet-olaylari",
+                  "ad": "Önemli Devlet Olayları",
+                  "sira": 4,
+                  "grup": null
+                },
+                {
+                  "kod": "turkiye-ye-vize-uygulamayan-ulkeler",
+                  "ad": "Türkiye'ye Vize Uygulamayan Ülkeler",
+                  "sira": 5,
+                  "grup": null
+                },
+                {
+                  "kod": "unesco-dunya-mirasi-listesindeki-varliklarimiz",
+                  "ad": "UNESCO Dünya Mirası Listesindeki Varlıklarımız",
+                  "sira": 6,
+                  "grup": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

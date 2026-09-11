@@ -1,0 +1,1181 @@
+{
+  "kod": "kpss-a-p32-alan-2026",
+  "ad": "KPSS A Grubu Alan Bilgisi",
+  "yil": 2026,
+  "seviye": "lisans-a-grubu",
+  "toplam_soru": 200,
+  "sure_dakika": 200,
+  "kaynak_notu": "P32 = %10 GY + %10 GK + %20 Hukuk + %15 İktisat + %15 Maliye + %30 Kamu Yönetimi. Hukuk/İktisat/Maliye ağırlıkları 2025 KPSS A çıkmış testlerinin soru soru sayımından (eşleme scratchpad alan_*.json); Kamu Yönetimi ağırlıkları iki ikincil kaynaktan (kpsscafe 4254040, guncelkpssbilgi 2023-a-grubu; 20.08.2026) — çıkmış KY PDF'i gelince sayımla değiştirilecek. Muhasebe P32 hesabına girmez, KPSS A'nın ayrı testi olarak ikinci bölümde durur; ağırlıkları Deniz'in verdiği dağılımdan (21.08.2026), 2024/2025 PDF sayımı üretilince ölçüme dönecek.",
+  "bolumler": [
+    {
+      "kod": "alan-p32",
+      "ad": "Alan Bilgisi (P32)",
+      "soru_sayisi": 160,
+      "sira": 1,
+      "dersler": [
+        {
+          "kod": "kamu-yonetimi",
+          "ad": "Kamu Yönetimi",
+          "soru_sayisi": 40,
+          "uyari": "Ağırlıklar ikincil kaynaklardan; çıkmış PDF sayımı gelince değiştirilecek.",
+          "konular": [
+            {
+              "kod": "ky-siyaset-bilimi",
+              "ad": "Siyaset Bilimi",
+              "sira": 1,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "ky-siyaset-kavrami-ve-yaklasimlar",
+                  "ad": "Siyaset Kavramı ve Yaklaşımlar",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-iktidar-otorite-ve-mesruiyet",
+                  "ad": "İktidar, Otorite ve Meşruiyet",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-devlet-kuramlari",
+                  "ad": "Devlet Kuramları",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-siyasal-sistemler-ve-rejimler",
+                  "ad": "Siyasal Sistemler ve Rejimler",
+                  "sira": 4
+                },
+                {
+                  "kod": "ky-siyasal-partiler-ve-parti-sistemleri",
+                  "ad": "Siyasal Partiler ve Parti Sistemleri",
+                  "sira": 5
+                },
+                {
+                  "kod": "ky-secimler-ve-secim-sistemleri",
+                  "ad": "Seçimler ve Seçim Sistemleri",
+                  "sira": 6
+                },
+                {
+                  "kod": "ky-siyasal-katilma",
+                  "ad": "Siyasal Katılma",
+                  "sira": 7
+                },
+                {
+                  "kod": "ky-baski-gruplari-ve-sivil-toplum",
+                  "ad": "Baskı Grupları ve Sivil Toplum",
+                  "sira": 8
+                },
+                {
+                  "kod": "ky-siyasal-ideolojiler",
+                  "ad": "Siyasal İdeolojiler",
+                  "sira": 9
+                }
+              ]
+            },
+            {
+              "kod": "ky-anayasa",
+              "ad": "Anayasa",
+              "sira": 2,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "ky-anayasa-kavrami-ve-anayasacilik",
+                  "ad": "Anayasa Kavramı ve Anayasacılık",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-osmanli-turk-anayasal-gelismeleri",
+                  "ad": "Osmanlı-Türk Anayasal Gelişmeleri",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-1982-anayasasinin-temel-ilkeleri",
+                  "ad": "1982 Anayasası'nın Temel İlkeleri",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-temel-hak-ve-ozgurlukler",
+                  "ad": "Temel Hak ve Özgürlükler",
+                  "sira": 4
+                },
+                {
+                  "kod": "ky-yasama",
+                  "ad": "Yasama",
+                  "sira": 5
+                },
+                {
+                  "kod": "ky-yurutme",
+                  "ad": "Yürütme",
+                  "sira": 6
+                },
+                {
+                  "kod": "ky-yargi",
+                  "ad": "Yargı",
+                  "sira": 7
+                },
+                {
+                  "kod": "ky-anayasa-yargisi",
+                  "ad": "Anayasa Yargısı",
+                  "sira": 8
+                }
+              ]
+            },
+            {
+              "kod": "ky-yonetim-bilimleri-ve-kamu-politikasi",
+              "ad": "Yönetim Bilimleri ve Kamu Politikası",
+              "sira": 3,
+              "agirlik": 8,
+              "alt_konular": [
+                {
+                  "kod": "ky-yonetim-ve-orgut-kuramlari",
+                  "ad": "Yönetim ve Örgüt Kuramları",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-burokrasi-kurami-ve-elestirileri",
+                  "ad": "Bürokrasi Kuramı ve Eleştirileri",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-yeni-kamu-yonetimi-ve-yonetisim",
+                  "ad": "Yeni Kamu Yönetimi ve Yönetişim",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-kamu-personel-yonetimi",
+                  "ad": "Kamu Personel Yönetimi",
+                  "sira": 4
+                },
+                {
+                  "kod": "ky-kamu-politikasi-sureci",
+                  "ad": "Kamu Politikası Süreci",
+                  "sira": 5
+                },
+                {
+                  "kod": "ky-stratejik-yonetim-ve-performans",
+                  "ad": "Stratejik Yönetim ve Performans",
+                  "sira": 6
+                },
+                {
+                  "kod": "ky-kamu-yonetiminde-denetim",
+                  "ad": "Kamu Yönetiminde Denetim",
+                  "sira": 7
+                },
+                {
+                  "kod": "ky-e-devlet-ve-dijital-donusum",
+                  "ad": "E-Devlet ve Dijital Dönüşüm",
+                  "sira": 8
+                }
+              ]
+            },
+            {
+              "kod": "ky-yonetim-hukuku",
+              "ad": "Yönetim Hukuku",
+              "sira": 4,
+              "agirlik": 8,
+              "alt_konular": [
+                {
+                  "kod": "ky-idare-ve-idare-hukuku-kavramlari",
+                  "ad": "İdare ve İdare Hukuku Kavramları",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-idarenin-butunlugu-hiyerarsi-ve-vesayet",
+                  "ad": "İdarenin Bütünlüğü: Hiyerarşi ve Vesayet",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-merkezi-idare",
+                  "ad": "Merkezî İdare",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-yerinden-yonetim-ve-yerel-yonetimler",
+                  "ad": "Yerinden Yönetim ve Yerel Yönetimler",
+                  "sira": 4
+                },
+                {
+                  "kod": "ky-kamu-gorevlileri",
+                  "ad": "Kamu Görevlileri",
+                  "sira": 5
+                },
+                {
+                  "kod": "ky-idari-islemler",
+                  "ad": "İdari İşlemler",
+                  "sira": 6
+                },
+                {
+                  "kod": "ky-kamu-hizmeti-ve-kolluk",
+                  "ad": "Kamu Hizmeti ve Kolluk",
+                  "sira": 7
+                },
+                {
+                  "kod": "ky-idarenin-sorumlulugu-ve-idari-yargi",
+                  "ad": "İdarenin Sorumluluğu ve İdari Yargı",
+                  "sira": 8
+                }
+              ]
+            },
+            {
+              "kod": "ky-kentlesme-ve-cevre-sorunlari",
+              "ad": "Kentleşme ve Çevre Sorunları",
+              "sira": 5,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "ky-kentlesme-kavrami-ve-nedenleri",
+                  "ad": "Kentleşme Kavramı ve Nedenleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-turkiyede-kentlesme",
+                  "ad": "Türkiye'de Kentleşme",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-konut-politikasi-ve-gecekondu",
+                  "ad": "Konut Politikası ve Gecekondu",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-kent-planlamasi-ve-imar",
+                  "ad": "Kent Planlaması ve İmar",
+                  "sira": 4
+                },
+                {
+                  "kod": "ky-kentsel-donusum",
+                  "ad": "Kentsel Dönüşüm",
+                  "sira": 5
+                },
+                {
+                  "kod": "ky-goc",
+                  "ad": "Göç",
+                  "sira": 6
+                },
+                {
+                  "kod": "ky-cevre-sorunlari-ve-cevre-politikasi",
+                  "ad": "Çevre Sorunları ve Çevre Politikası",
+                  "sira": 7
+                },
+                {
+                  "kod": "ky-afet-yonetimi",
+                  "ad": "Afet Yönetimi",
+                  "sira": 8
+                }
+              ]
+            },
+            {
+              "kod": "ky-sosyoloji",
+              "ad": "Sosyoloji",
+              "sira": 6,
+              "agirlik": 2,
+              "alt_konular": [
+                {
+                  "kod": "ky-temel-kavramlar-ve-kuramcilar",
+                  "ad": "Temel Kavramlar ve Kuramcılar",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-toplumsal-yapi-ve-tabakalasma",
+                  "ad": "Toplumsal Yapı ve Tabakalaşma",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-toplumsal-degisme",
+                  "ad": "Toplumsal Değişme",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-turkiyenin-toplumsal-yapisi",
+                  "ad": "Türkiye'nin Toplumsal Yapısı",
+                  "sira": 4
+                }
+              ]
+            },
+            {
+              "kod": "ky-turk-siyasal-hayati",
+              "ad": "Türk Siyasal Hayatı",
+              "sira": 7,
+              "agirlik": 4,
+              "alt_konular": [
+                {
+                  "kod": "ky-osmanlidan-cumhuriyete-siyasal-miras",
+                  "ad": "Osmanlı'dan Cumhuriyet'e Siyasal Miras",
+                  "sira": 1
+                },
+                {
+                  "kod": "ky-tek-parti-donemi",
+                  "ad": "Tek Parti Dönemi",
+                  "sira": 2
+                },
+                {
+                  "kod": "ky-cok-partili-hayata-gecis",
+                  "ad": "Çok Partili Hayata Geçiş",
+                  "sira": 3
+                },
+                {
+                  "kod": "ky-1960-1980-darbeler-ve-anayasal-kirilmalar",
+                  "ad": "1960-1980: Darbeler ve Anayasal Kırılmalar",
+                  "sira": 4
+                },
+                {
+                  "kod": "ky-1980-sonrasi-turk-siyaseti",
+                  "ad": "1980 Sonrası Türk Siyaseti",
+                  "sira": 5
+                },
+                {
+                  "kod": "ky-2000ler-ve-hukumet-sistemi-degisimi",
+                  "ad": "2000'ler ve Hükûmet Sistemi Değişimi",
+                  "sira": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kod": "hukuk",
+          "ad": "Hukuk",
+          "soru_sayisi": 40,
+          "uyari": null,
+          "konular": [
+            {
+              "kod": "huk-anayasa-hukuku",
+              "ad": "Anayasa Hukuku",
+              "sira": 1,
+              "agirlik": 4,
+              "alt_konular": [
+                {
+                  "kod": "huk-genel-esaslar",
+                  "ad": "Genel Esaslar",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-temel-hak-ve-hurriyetler",
+                  "ad": "Temel Hak ve Hürriyetler",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-yasama",
+                  "ad": "Yasama",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-yurutme",
+                  "ad": "Yürütme",
+                  "sira": 4
+                },
+                {
+                  "kod": "huk-yargi-ve-anayasa-yargisi",
+                  "ad": "Yargı ve Anayasa Yargısı",
+                  "sira": 5
+                }
+              ]
+            },
+            {
+              "kod": "huk-idare-hukuku-ve-idari-yargi",
+              "ad": "İdare Hukuku ve İdari Yargı",
+              "sira": 2,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "huk-idari-teskilat",
+                  "ad": "İdari Teşkilat",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-idari-islemler",
+                  "ad": "İdari İşlemler",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-idari-sozlesmeler",
+                  "ad": "İdari Sözleşmeler",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-kamu-gorevlileri",
+                  "ad": "Kamu Görevlileri",
+                  "sira": 4
+                },
+                {
+                  "kod": "huk-kamu-mallari-ve-kamu-hizmeti",
+                  "ad": "Kamu Malları ve Kamu Hizmeti",
+                  "sira": 5
+                },
+                {
+                  "kod": "huk-kolluk",
+                  "ad": "Kolluk",
+                  "sira": 6
+                },
+                {
+                  "kod": "huk-idarenin-sorumlulugu",
+                  "ad": "İdarenin Sorumluluğu",
+                  "sira": 7
+                },
+                {
+                  "kod": "huk-idari-yargilama-hukuku",
+                  "ad": "İdari Yargılama Hukuku",
+                  "sira": 8
+                }
+              ]
+            },
+            {
+              "kod": "huk-ceza-hukuku",
+              "ad": "Ceza Hukuku",
+              "sira": 3,
+              "agirlik": 3,
+              "alt_konular": [
+                {
+                  "kod": "huk-suc-teorisi",
+                  "ad": "Suç Teorisi",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-kusurluluk",
+                  "ad": "Kusurluluk",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-tesebbus-istirak-ictima",
+                  "ad": "Teşebbüs, İştirak, İçtima",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-yaptirimlar",
+                  "ad": "Yaptırımlar",
+                  "sira": 4
+                },
+                {
+                  "kod": "huk-ozel-hukumler-kisilere-ve-mala-karsi-suclar",
+                  "ad": "Özel Hükümler: Kişilere ve Mala Karşı Suçlar",
+                  "sira": 5
+                },
+                {
+                  "kod": "huk-ozel-hukumler-kamu-guvenine-ve-idareye-karsi-suclar",
+                  "ad": "Özel Hükümler: Kamu Güvenine ve İdareye Karşı Suçlar",
+                  "sira": 6
+                }
+              ]
+            },
+            {
+              "kod": "huk-ceza-muhakemesi-hukuku",
+              "ad": "Ceza Muhakemesi Hukuku",
+              "sira": 4,
+              "agirlik": 3,
+              "alt_konular": [
+                {
+                  "kod": "huk-sorusturma-evresi",
+                  "ad": "Soruşturma Evresi",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-kovusturma-evresi",
+                  "ad": "Kovuşturma Evresi",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-koruma-tedbirleri",
+                  "ad": "Koruma Tedbirleri",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-kanun-yollari",
+                  "ad": "Kanun Yolları",
+                  "sira": 4
+                }
+              ]
+            },
+            {
+              "kod": "huk-medeni-hukuk",
+              "ad": "Medeni Hukuk",
+              "sira": 5,
+              "agirlik": 5,
+              "alt_konular": [
+                {
+                  "kod": "huk-baslangic-hukumleri",
+                  "ad": "Başlangıç Hükümleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-kisiler-hukuku",
+                  "ad": "Kişiler Hukuku",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-aile-hukuku",
+                  "ad": "Aile Hukuku",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-esya-hukuku",
+                  "ad": "Eşya Hukuku",
+                  "sira": 4
+                },
+                {
+                  "kod": "huk-miras-hukuku",
+                  "ad": "Miras Hukuku",
+                  "sira": 5
+                }
+              ]
+            },
+            {
+              "kod": "huk-borclar-hukuku",
+              "ad": "Borçlar Hukuku",
+              "sira": 6,
+              "agirlik": 7,
+              "alt_konular": [
+                {
+                  "kod": "huk-borcun-kaynaklari",
+                  "ad": "Borcun Kaynakları",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-sozlesmenin-kurulmasi-ve-gecerliligi",
+                  "ad": "Sözleşmenin Kurulması ve Geçerliliği",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-haksiz-fiil-ve-sebepsiz-zenginlesme",
+                  "ad": "Haksız Fiil ve Sebepsiz Zenginleşme",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-ifa-ve-borcun-sona-ermesi",
+                  "ad": "İfa ve Borcun Sona Ermesi",
+                  "sira": 4
+                },
+                {
+                  "kod": "huk-ozel-borc-iliskileri",
+                  "ad": "Özel Borç İlişkileri",
+                  "sira": 5
+                }
+              ]
+            },
+            {
+              "kod": "huk-ticaret-hukuku",
+              "ad": "Ticaret Hukuku",
+              "sira": 7,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "huk-ticari-isletme-hukuku",
+                  "ad": "Ticari İşletme Hukuku",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-sirketler-hukuku",
+                  "ad": "Şirketler Hukuku",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-kiymetli-evrak-hukuku",
+                  "ad": "Kıymetli Evrak Hukuku",
+                  "sira": 3
+                }
+              ]
+            },
+            {
+              "kod": "huk-icra-ve-iflas-hukuku",
+              "ad": "İcra ve İflas Hukuku",
+              "sira": 8,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "huk-ilamsiz-icra",
+                  "ad": "İlamsız İcra",
+                  "sira": 1
+                },
+                {
+                  "kod": "huk-ilamli-icra-ve-haciz",
+                  "ad": "İlamlı İcra ve Haciz",
+                  "sira": 2
+                },
+                {
+                  "kod": "huk-rehnin-paraya-cevrilmesi",
+                  "ad": "Rehnin Paraya Çevrilmesi",
+                  "sira": 3
+                },
+                {
+                  "kod": "huk-iflas-ve-konkordato",
+                  "ad": "İflas ve Konkordato",
+                  "sira": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kod": "iktisat",
+          "ad": "İktisat",
+          "soru_sayisi": 40,
+          "uyari": null,
+          "konular": [
+            {
+              "kod": "ikt-mikro-iktisat",
+              "ad": "Mikro İktisat",
+              "sira": 1,
+              "agirlik": 12,
+              "alt_konular": [
+                {
+                  "kod": "ikt-arz-talep-ve-esneklik",
+                  "ad": "Arz, Talep ve Esneklik",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-tuketici-teorisi",
+                  "ad": "Tüketici Teorisi",
+                  "sira": 2
+                },
+                {
+                  "kod": "ikt-uretim-ve-maliyetler",
+                  "ad": "Üretim ve Maliyetler",
+                  "sira": 3
+                },
+                {
+                  "kod": "ikt-tam-rekabet-piyasasi",
+                  "ad": "Tam Rekabet Piyasası",
+                  "sira": 4
+                },
+                {
+                  "kod": "ikt-monopol",
+                  "ad": "Monopol",
+                  "sira": 5
+                },
+                {
+                  "kod": "ikt-oligopol-ve-oyun-teorisi",
+                  "ad": "Oligopol ve Oyun Teorisi",
+                  "sira": 6
+                },
+                {
+                  "kod": "ikt-faktor-piyasalari",
+                  "ad": "Faktör Piyasaları",
+                  "sira": 7
+                },
+                {
+                  "kod": "ikt-genel-denge-ve-refah",
+                  "ad": "Genel Denge ve Refah",
+                  "sira": 8
+                }
+              ]
+            },
+            {
+              "kod": "ikt-makro-iktisat",
+              "ad": "Makro İktisat",
+              "sira": 2,
+              "agirlik": 10,
+              "alt_konular": [
+                {
+                  "kod": "ikt-milli-gelir-hesaplari",
+                  "ad": "Millî Gelir Hesapları",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-klasik-ve-keynesyen-sistem",
+                  "ad": "Klasik ve Keynesyen Sistem",
+                  "sira": 2
+                },
+                {
+                  "kod": "ikt-is-lm-analizi",
+                  "ad": "IS-LM Analizi",
+                  "sira": 3
+                },
+                {
+                  "kod": "ikt-ad-as-modeli",
+                  "ad": "AD-AS Modeli",
+                  "sira": 4
+                },
+                {
+                  "kod": "ikt-enflasyon-ve-issizlik",
+                  "ad": "Enflasyon ve İşsizlik",
+                  "sira": 5
+                },
+                {
+                  "kod": "ikt-beklentiler-ve-konjonktur",
+                  "ad": "Beklentiler ve Konjonktür",
+                  "sira": 6
+                }
+              ]
+            },
+            {
+              "kod": "ikt-para-banka-kredi",
+              "ad": "Para-Banka-Kredi",
+              "sira": 3,
+              "agirlik": 5,
+              "alt_konular": [
+                {
+                  "kod": "ikt-para-arzi-ve-para-talebi",
+                  "ad": "Para Arzı ve Para Talebi",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-merkez-bankaciligi-ve-para-politikasi",
+                  "ad": "Merkez Bankacılığı ve Para Politikası",
+                  "sira": 2
+                },
+                {
+                  "kod": "ikt-finansal-piyasalar",
+                  "ad": "Finansal Piyasalar",
+                  "sira": 3
+                },
+                {
+                  "kod": "ikt-faiz-teorileri",
+                  "ad": "Faiz Teorileri",
+                  "sira": 4
+                }
+              ]
+            },
+            {
+              "kod": "ikt-uluslararasi-iktisat",
+              "ad": "Uluslararası İktisat",
+              "sira": 4,
+              "agirlik": 4,
+              "alt_konular": [
+                {
+                  "kod": "ikt-dis-ticaret-teorileri",
+                  "ad": "Dış Ticaret Teorileri",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-odemeler-bilancosu",
+                  "ad": "Ödemeler Bilançosu",
+                  "sira": 2
+                },
+                {
+                  "kod": "ikt-doviz-kuru",
+                  "ad": "Döviz Kuru",
+                  "sira": 3
+                },
+                {
+                  "kod": "ikt-dis-ticaret-politikasi-ve-entegrasyonlar",
+                  "ad": "Dış Ticaret Politikası ve Entegrasyonlar",
+                  "sira": 4
+                }
+              ]
+            },
+            {
+              "kod": "ikt-kalkinma-ve-buyume",
+              "ad": "Kalkınma ve Büyüme",
+              "sira": 5,
+              "agirlik": 4,
+              "alt_konular": [
+                {
+                  "kod": "ikt-buyume-modelleri",
+                  "ad": "Büyüme Modelleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-kalkinma-teorileri",
+                  "ad": "Kalkınma Teorileri",
+                  "sira": 2
+                },
+                {
+                  "kod": "ikt-gelir-dagilimi-ve-yoksulluk",
+                  "ad": "Gelir Dağılımı ve Yoksulluk",
+                  "sira": 3
+                }
+              ]
+            },
+            {
+              "kod": "ikt-turkiye-ekonomisi",
+              "ad": "Türkiye Ekonomisi",
+              "sira": 6,
+              "agirlik": 4,
+              "alt_konular": [
+                {
+                  "kod": "ikt-1923-1980-donemi",
+                  "ad": "1923-1980 Dönemi",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-1980-sonrasi-ve-krizler",
+                  "ad": "1980 Sonrası ve Krizler",
+                  "sira": 2
+                },
+                {
+                  "kod": "ikt-guncel-yapi-ve-gostergeler",
+                  "ad": "Güncel Yapı ve Göstergeler",
+                  "sira": 3
+                }
+              ]
+            },
+            {
+              "kod": "ikt-istatistik-ekonometri",
+              "ad": "İstatistik-Ekonometri",
+              "sira": 7,
+              "agirlik": null,
+              "alt_konular": [
+                {
+                  "kod": "ikt-temel-istatistik",
+                  "ad": "Temel İstatistik",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-regresyon-ve-ekonometrik-yontemler",
+                  "ad": "Regresyon ve Ekonometrik Yöntemler",
+                  "sira": 2
+                }
+              ]
+            },
+            {
+              "kod": "ikt-iktisadi-doktrinler",
+              "ad": "İktisadi Doktrinler",
+              "sira": 8,
+              "agirlik": 1,
+              "alt_konular": [
+                {
+                  "kod": "ikt-merkantilizm-fizyokrasi-ve-klasikler",
+                  "ad": "Merkantilizm, Fizyokrasi ve Klasikler",
+                  "sira": 1
+                },
+                {
+                  "kod": "ikt-keynes-ve-sonrasi-okullar",
+                  "ad": "Keynes ve Sonrası Okullar",
+                  "sira": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kod": "maliye",
+          "ad": "Maliye",
+          "soru_sayisi": 40,
+          "uyari": null,
+          "konular": [
+            {
+              "kod": "mly-maliye-teorisi",
+              "ad": "Maliye Teorisi",
+              "sira": 1,
+              "agirlik": 5,
+              "alt_konular": [
+                {
+                  "kod": "mly-kamu-ekonomisinin-gerekceleri",
+                  "ad": "Kamu Ekonomisinin Gerekçeleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-kamusal-mallar",
+                  "ad": "Kamusal Mallar",
+                  "sira": 2
+                },
+                {
+                  "kod": "mly-dissalliklar",
+                  "ad": "Dışsallıklar",
+                  "sira": 3
+                },
+                {
+                  "kod": "mly-kamu-tercihi-teorisi",
+                  "ad": "Kamu Tercihi Teorisi",
+                  "sira": 4
+                }
+              ]
+            },
+            {
+              "kod": "mly-kamu-gelirleri-ve-vergi-teorisi",
+              "ad": "Kamu Gelirleri ve Vergi Teorisi",
+              "sira": 2,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "mly-kamu-gelir-turleri",
+                  "ad": "Kamu Gelir Türleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-vergileme-ilkeleri",
+                  "ad": "Vergileme İlkeleri",
+                  "sira": 2
+                },
+                {
+                  "kod": "mly-vergi-yuku-ve-yansima",
+                  "ad": "Vergi Yükü ve Yansıma",
+                  "sira": 3
+                },
+                {
+                  "kod": "mly-gelir-servet-ve-harcama-vergileri",
+                  "ad": "Gelir, Servet ve Harcama Vergileri",
+                  "sira": 4
+                }
+              ]
+            },
+            {
+              "kod": "mly-kamu-giderleri",
+              "ad": "Kamu Giderleri",
+              "sira": 3,
+              "agirlik": 5,
+              "alt_konular": [
+                {
+                  "kod": "mly-kamu-giderlerinin-siniflandirilmasi",
+                  "ad": "Kamu Giderlerinin Sınıflandırılması",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-kamu-giderlerinin-artisi-kuramlari",
+                  "ad": "Kamu Giderlerinin Artışı Kuramları",
+                  "sira": 2
+                }
+              ]
+            },
+            {
+              "kod": "mly-kamu-borclanmasi",
+              "ad": "Kamu Borçlanması",
+              "sira": 4,
+              "agirlik": 5,
+              "alt_konular": [
+                {
+                  "kod": "mly-borclanmanin-nedenleri-ve-turleri",
+                  "ad": "Borçlanmanın Nedenleri ve Türleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-borc-yonetimi",
+                  "ad": "Borç Yönetimi",
+                  "sira": 2
+                }
+              ]
+            },
+            {
+              "kod": "mly-butce-ve-kesin-hesap",
+              "ad": "Bütçe ve Kesin Hesap",
+              "sira": 5,
+              "agirlik": 7,
+              "alt_konular": [
+                {
+                  "kod": "mly-butce-ilkeleri-ve-turleri",
+                  "ad": "Bütçe İlkeleri ve Türleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-5018-ve-butce-sureci",
+                  "ad": "5018 ve Bütçe Süreci",
+                  "sira": 2
+                },
+                {
+                  "kod": "mly-kesin-hesap-ve-denetim",
+                  "ad": "Kesin Hesap ve Denetim",
+                  "sira": 3
+                }
+              ]
+            },
+            {
+              "kod": "mly-maliye-politikasi",
+              "ad": "Maliye Politikası",
+              "sira": 6,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "mly-amaclar-ve-araclar",
+                  "ad": "Amaçlar ve Araçlar",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-enflasyon-ve-durgunlukla-mucadele",
+                  "ad": "Enflasyon ve Durgunlukla Mücadele",
+                  "sira": 2
+                },
+                {
+                  "kod": "mly-aciklar-ve-borc-dinamigi",
+                  "ad": "Açıklar ve Borç Dinamiği",
+                  "sira": 3
+                }
+              ]
+            },
+            {
+              "kod": "mly-vergi-hukuku-ve-turk-vergi-sistemi",
+              "ad": "Vergi Hukuku ve Türk Vergi Sistemi",
+              "sira": 7,
+              "agirlik": 6,
+              "alt_konular": [
+                {
+                  "kod": "mly-vergilendirme-sureci",
+                  "ad": "Vergilendirme Süreci",
+                  "sira": 1
+                },
+                {
+                  "kod": "mly-vergi-suc-ve-cezalari",
+                  "ad": "Vergi Suç ve Cezaları",
+                  "sira": 2
+                },
+                {
+                  "kod": "mly-gelir-vergisi",
+                  "ad": "Gelir Vergisi",
+                  "sira": 3
+                },
+                {
+                  "kod": "mly-kurumlar-vergisi",
+                  "ad": "Kurumlar Vergisi",
+                  "sira": 4
+                },
+                {
+                  "kod": "mly-kdv-ve-otv",
+                  "ad": "KDV ve ÖTV",
+                  "sira": 5
+                },
+                {
+                  "kod": "mly-diger-vergiler",
+                  "ad": "Diğer Vergiler",
+                  "sira": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kod": "kpss-a-diger",
+      "ad": "KPSS A Grubu (P32 Dışı)",
+      "soru_sayisi": 40,
+      "sira": 2,
+      "dersler": [
+        {
+          "kod": "muhasebe",
+          "ad": "Muhasebe",
+          "soru_sayisi": 40,
+          "uyari": null,
+          "konular": [
+            {
+              "kod": "muh-genel-muhasebe",
+              "ad": "Genel Muhasebe",
+              "sira": 1,
+              "agirlik": 21,
+              "alt_konular": [
+                {
+                  "kod": "muh-muhasebenin-temel-kavramlari-ve-ilkeleri",
+                  "ad": "Muhasebenin Temel Kavramları ve İlkeleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "muh-muhasebe-sureci-ve-kayit-duzeni",
+                  "ad": "Muhasebe Süreci ve Kayıt Düzeni",
+                  "sira": 2
+                },
+                {
+                  "kod": "muh-tekduzen-hesap-plani",
+                  "ad": "Tekdüzen Hesap Planı",
+                  "sira": 3
+                },
+                {
+                  "kod": "muh-hazir-degerler-ve-menkul-kiymetler",
+                  "ad": "Hazır Değerler ve Menkul Kıymetler",
+                  "sira": 4
+                },
+                {
+                  "kod": "muh-alacaklar",
+                  "ad": "Alacaklar",
+                  "sira": 5
+                },
+                {
+                  "kod": "muh-stoklar-ve-stok-degerleme-yontemleri",
+                  "ad": "Stoklar ve Stok Değerleme Yöntemleri",
+                  "sira": 6
+                },
+                {
+                  "kod": "muh-duran-varliklar-ve-amortisman",
+                  "ad": "Duran Varlıklar ve Amortisman",
+                  "sira": 7
+                },
+                {
+                  "kod": "muh-yabanci-kaynaklar",
+                  "ad": "Yabancı Kaynaklar",
+                  "sira": 8
+                },
+                {
+                  "kod": "muh-ozkaynaklar",
+                  "ad": "Özkaynaklar",
+                  "sira": 9
+                },
+                {
+                  "kod": "muh-gelir-ve-gider-hesaplari",
+                  "ad": "Gelir ve Gider Hesapları",
+                  "sira": 10
+                },
+                {
+                  "kod": "muh-kdv-islemleri-ve-kayitlari",
+                  "ad": "KDV İşlemleri ve Kayıtları",
+                  "sira": 11
+                },
+                {
+                  "kod": "muh-donem-sonu-(envanter)-islemleri",
+                  "ad": "Dönem Sonu (Envanter) İşlemleri",
+                  "sira": 12
+                },
+                {
+                  "kod": "muh-muhasebe-hatalari-ve-duzeltme-kayitlari",
+                  "ad": "Muhasebe Hataları ve Düzeltme Kayıtları",
+                  "sira": 13
+                }
+              ]
+            },
+            {
+              "kod": "muh-mali-tablolar-analizi",
+              "ad": "Mali Tablolar Analizi",
+              "sira": 2,
+              "agirlik": 10,
+              "alt_konular": [
+                {
+                  "kod": "muh-mali-tablolar-ve-duzenleme-ilkeleri",
+                  "ad": "Mali Tablolar ve Düzenleme İlkeleri",
+                  "sira": 1
+                },
+                {
+                  "kod": "muh-analiz-teknikleri",
+                  "ad": "Analiz Teknikleri",
+                  "sira": 2
+                },
+                {
+                  "kod": "muh-likidite-oranlari",
+                  "ad": "Likidite Oranları",
+                  "sira": 3
+                },
+                {
+                  "kod": "muh-mali-yapi-oranlari",
+                  "ad": "Mali Yapı Oranları",
+                  "sira": 4
+                },
+                {
+                  "kod": "muh-faaliyet-(devir-hizi)-oranlari",
+                  "ad": "Faaliyet (Devir Hızı) Oranları",
+                  "sira": 5
+                },
+                {
+                  "kod": "muh-karlilik-oranlari",
+                  "ad": "Kârlılık Oranları",
+                  "sira": 6
+                }
+              ]
+            },
+            {
+              "kod": "muh-ihtisas-muhasebesi",
+              "ad": "İhtisas Muhasebesi",
+              "sira": 3,
+              "agirlik": 9,
+              "alt_konular": [
+                {
+                  "kod": "muh-maliyet-muhasebesi",
+                  "ad": "Maliyet Muhasebesi",
+                  "sira": 1
+                },
+                {
+                  "kod": "muh-yonetim-muhasebesi",
+                  "ad": "Yönetim Muhasebesi",
+                  "sira": 2
+                },
+                {
+                  "kod": "muh-denetim",
+                  "ad": "Denetim",
+                  "sira": 3
+                },
+                {
+                  "kod": "muh-tms-tfrs",
+                  "ad": "TMS/TFRS",
+                  "sira": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
