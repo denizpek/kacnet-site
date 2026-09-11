@@ -1,6 +1,7 @@
 import FeaturesCards from "@/components/ui/feature-shader-cards";
 import { CinematicHero } from "@/components/ui/hero-shader";
 import { CinematicFooter } from "@/components/ui/motion-footer";
+import PricingSection from "@/components/ui/pricing-section";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <main className="relative z-10 w-full bg-background rounded-b-3xl border-b border-border shadow-xl">
         <CinematicHero />
         <FeaturesCards />
+        <PricingSection />
       </main>
 
       <CinematicFooter />
