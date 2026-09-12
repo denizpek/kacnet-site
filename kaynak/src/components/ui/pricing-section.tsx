@@ -6,7 +6,13 @@ const planlar = [
   { ad: "Aylık", fiyat: "149,99 TL", donem: "30 gün", not: "En çok tercih edilen plan.", one: true },
 ]
 
+import { useEffect } from "react"
+
 export default function PricingSection() {
+  // React bölümü yükledikten sonra tarayıcı #fiyatlar kaydırmasını yapmış olur; elle kaydır.
+  useEffect(() => {
+    if (window.location.hash === "#fiyatlar") document.getElementById("fiyatlar")?.scrollIntoView({ block: "start" })
+  }, [])
   return (
     <section id="fiyatlar" className="py-24 px-4 bg-background">
       <div className="max-w-5xl mx-auto">
