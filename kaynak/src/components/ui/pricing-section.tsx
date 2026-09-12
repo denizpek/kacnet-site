@@ -11,7 +11,15 @@ import { useEffect } from "react"
 export default function PricingSection() {
   // React bölümü yükledikten sonra tarayıcı #fiyatlar kaydırmasını yapmış olur; elle kaydır.
   useEffect(() => {
-    if (window.location.hash === "#fiyatlar") document.getElementById("fiyatlar")?.scrollIntoView({ block: "start" })
+    const git = () => {
+      if (window.location.hash !== "#fiyatlar") return
+      const el = document.getElementById("fiyatlar")
+      if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 16, behavior: "instant" as ScrollBehavior })
+    }
+    // Hero shader ve yazı tipleri yüklenince yerleşim değişir; iki kez dene.
+    const z1 = window.setTimeout(git, 300), z2 = window.setTimeout(git, 1500)
+    window.addEventListener("hashchange", git)
+    return () => { window.clearTimeout(z1); window.clearTimeout(z2); window.removeEventListener("hashchange", git) }
   }, [])
   return (
     <section id="fiyatlar" className="py-24 px-4 bg-background">
